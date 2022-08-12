@@ -1,0 +1,351 @@
+.block {
+    font-family: 'Roboto', sans-serif;
+    .main1 {
+        background-image: url(../img/contact-bg.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 70rem;
+        padding-top: 3rem;
+        @media only screen and (max-width: 430px) {
+            height: 90rem;
+        }
+        @media only screen and (max-width: 400px) {
+            background-image: url(../img/contact-bg-mbl.png);
+        }
+    }
+    .real {
+        line-height: 1px;
+        .mono-img {
+            width: 80%;
+        }
+    }
+    .real-text {
+        font-size: 8rem;
+        font-weight: 700;
+        line-height: .9;
+        @media only screen and(max-width: 1440px) {
+            font-size: 6rem;
+        }
+    }
+    .text-contact {
+        h3 {
+            font-weight: 700;
+            font-size: 5rem;
+        }
+    }
+    .items {
+        margin-top: 1.9rem;
+        @media only screen and (max-width: 600px) {
+            margin-left: 2rem;
+            margin-top: 3.9rem;
+        }
+        .contact-list {
+            list-style: none;
+            font-size: 1.8rem;
+        }
+    }
+    .inner {
+        padding-top: 1rem;
+    }
+    .contact-number {
+        margin-top: 1rem;
+    }
+    .container2 {
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+        @media only screen and (max-width: 768px) {
+            width: 90%;
+        }
+        @media only screen and (max-width: 586px) {
+            width: 93%;
+        }
+        @media only screen and (max-width: 500px) {
+            width: 100%;
+        }
+        .contact__card {
+            background-color: #EB9AC3;
+            width: 45%;
+            height: auto;
+            @media only screen and(max-width: 992px) {
+                width: 50%;
+            }
+            @media only screen and(max-width: 556px) {
+                width: 100%;
+            }
+        }
+    }
+    .contact__card {
+        padding: 3rem 6rem;
+        border-radius: 8px;
+        @media only screen and (max-width: 500px) {
+            border-radius: 0;
+        }
+        @media only screen and (max-width: 490px) {
+            padding: 3rem 4rem;
+        }
+    }
+    .contact__form {
+        .name {
+            width: 100%;
+            border: none;
+            outline: none;
+            padding: 6px 4px;
+            border-radius: 4px;
+            margin-bottom: 1rem;
+        }
+        .textarea {
+            resize: none;
+        }
+        .contact-text {
+            font-weight: 700;
+            font-size: 3rem;
+        }
+        .form-control {
+            font-size: 1.6rem;
+            border-radius: .5rem;
+            height: 3.8rem;
+        }
+    }
+    .form-control:focus {
+        box-shadow: none !important;
+        border-color: transparent !important;
+    }
+    .btn {
+        background-color: #012AC4;
+        padding: 1rem 2.4rem;
+        font-weight: 600;
+        font-size: 16px;
+        border-radius: .6rem;
+    }
+    .inner-flex {
+        padding: 8rem 12rem;
+        @media only screen and (max-width: 768px) {
+            padding: 0rem 0rem;
+        }
+    }
+}
+
+.textarea {
+    height: 120px !important;
+}
+
+.card-side-text {
+    position: relative;
+    margin-left: auto;
+    @media only screen and(max-width: 556px) {
+        margin: auto;
+    }
+    h1 {
+        font-size: 7rem;
+        @media only screen and (max-width: 1074px) {
+            font-size: 5rem;
+        }
+        @media only screen and (max-width: 780px) {
+            font-size: 4rem;
+        }
+        i {
+            font-weight: 800;
+            z-index: 1;
+        }
+    }
+     ::after {
+        content: "";
+        position: absolute;
+        z-index: 0;
+        width: 100%;
+        height: 22px;
+        background-color: #EB9AC3;
+        display: block;
+        bottom: 0;
+        left: 0;
+        z-index: -1;
+    }
+}
+
+.card-box {
+    display: flex;
+    align-items: flex-end;
+    gap: 4rem;
+    transform: translateY(-30%);
+    transition: all .3s ease;
+    @media only screen and (max-width: 556px) {
+        flex-direction: column;
+        transform: translateY(-20%);
+    }
+    @media only screen and (max-width: 500px) {
+        transform: translateY(0%);
+    }
+}
+
+.real {
+    padding-left: 11rem;
+}
+
+.map__container {
+    margin: auto;
+    padding-bottom: 6rem;
+    @media only screen and (max-width: 400px) {
+        display: none;
+    }
+}
+
+.map {
+    width: 100%;
+    height: 50rem;
+    text-align: center;
+}
+
+// responsive
+@media only screen and (max-width:1100px) {
+    .inner-flex {
+        flex-direction: column;
+    }
+    .flex-items {
+        padding-left: 11rem;
+        gap: 0rem;
+    }
+    .main-inside {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width:1074px) {
+    .container2 .contact__card {
+        width: 80%;
+    }
+    .container2 {
+        padding-left: 0rem;
+    }
+    .flex-items {
+        gap: 0;
+    }
+    .real {
+        padding-left: 6rem !important;
+    }
+    .flex-items {
+        padding-left: 6rem !important;
+    }
+}
+
+@media only screen and (max-width:962px) {
+    .real {
+        padding-left: 5rem !important;
+    }
+    .flex-items {
+        padding-left: 5rem !important;
+    }
+    .card-side-text {
+        margin-bottom: 2rem;
+    }
+}
+
+@media only screen and (max-width:720px) {
+    .real {
+        padding-left: 4rem;
+    }
+    .flex-items {
+        padding-top: 11rem;
+        padding-left: 4rem;
+    }
+}
+
+@media only screen and (max-width:600px) {
+    .real {
+        padding-left: 3rem !important;
+    }
+    .flex-items {
+        padding-left: 3rem !important;
+    }
+    .container2 .contact__card {
+        width: 100%;
+    }
+    .real {
+        padding-left: 2rem !important;
+    }
+    .flex-items {
+        padding-left: 2rem !important;
+    }
+    .contact__card {
+        padding: 3rem 2rem;
+    }
+    .map__container {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width:430px) {
+    .main1 {
+        background-image: url(/img/contact-bg-res.jfif);
+        background-position: left;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .real-text {
+        font-size: 2.2rem;
+    }
+    .flex-items {
+        flex-direction: column;
+        padding-top: 21rem;
+    }
+    .main1 {
+        height: auto;
+    }
+    .main-inside {
+        padding-left: 0 !important;
+    }
+    .card-side-text h1 {
+        font-size: 36px;
+    }
+    .sm-none {
+        display: none;
+    }
+}
+
+//
+.sign-in-wrapper {
+    width: 100%;
+    min-height: 100vh;
+    .col-md-7 {
+        @media only screen and (max-width: 768px) {
+            display: none
+        }
+    }
+    .sign-in-left {
+        @include absCenter;
+        p {
+            font-size: 1.8rem;
+            font-weight: 600;
+        }
+    }
+    .sign-in-right {
+        background-color: white;
+        padding: 2rem 3rem;
+        form {
+            padding-top: 5rem;
+        }
+        label {
+            color: white;
+            font-size: 1.8rem;
+        }
+        .form-control {
+            font-size: 1.8rem;
+            padding: .8rem .7rem;
+            background-color: transparent;
+            border: 1.5px solid #fff;
+            border-radius: 0;
+        }
+        .login-wrapper {
+            margin-top: 4rem;
+        }
+        .login-btn {
+            border-radius: 0;
+            text-align: center;
+            width: 100%;
+            &:hover {
+                filter: brightness(120%);
+            }
+        }
+    }
+}

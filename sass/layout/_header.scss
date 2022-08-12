@@ -1,0 +1,38 @@
+.destop-header {
+    width: 100%;
+    background-color: #fff;
+    &__wrapper {
+        padding: 2rem 3rem;
+        @include flex($justify: space-between, $align: center);
+    }
+    &__links-wrapper {
+        @include flex($justify: unset, $align: center);
+        column-gap: 3rem;
+        @media only screen and (max-width: 650px) {
+            display: none;
+        }
+    }
+    &__item {
+        padding: 7px 8px;
+        transition: all .3s ease;
+        border-radius: .6rem;
+    }
+    .destop-header__item:hover:not(:last-child) {
+        background-color: #F63379;
+        color: white;
+    }
+    .destop-header__item:hover .destop-header__link {
+        color: #fff;
+    }
+    &__link {
+        font-size: 1.5rem;
+        font-weight: 500;
+        color: #272727;
+    }
+    .toggle-btn {
+        display: none;
+        @media only screen and (max-width: 650px) {
+            display: block;
+        }
+    }
+}

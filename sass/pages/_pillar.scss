@@ -1,0 +1,430 @@
+.piller1 {
+    width: 100%;
+    background-image: url(../img/index-4-baner.png);
+    background-repeat: no-repeat;
+    background-position: inherit;
+    background-size: 100%, 110%;
+    @media only screen and (max-width: 600px) {
+        background-image: url(../img/index-4-mbl.png);
+    }
+}
+
+.piller2 {
+    width: 100%;
+    background-image: url(../img/index-5-baner.png);
+    background-repeat: no-repeat;
+    background-position: inherit;
+    background-size: 100%, 110%;
+    @media only screen and (max-width: 600px) {
+        background-image: url(../img/index-5-mbl.png);
+    }
+}
+
+.piller3 {
+    width: 100%;
+    background-image: url(../img/index-6-baner.png);
+    background-repeat: no-repeat;
+    background-position: inherit;
+    background-size: 100%, 110%;
+    @media only screen and (max-width: 600px) {
+        background-image: url(../img/index-6-mbl.png);
+    }
+}
+
+.piller1-footer {
+    width: 100%;
+    background-image: url(../img/piller1-footer.png);
+    background-repeat: no-repeat;
+    background-position: inherit;
+    background-size: 100%, 110%;
+    @media only screen and (max-width: 700px) {
+        background-image: none;
+    }
+}
+
+.piller3-footer {
+    width: 100%;
+    background-image: url(../img/piller2-footer.png);
+    background-repeat: no-repeat;
+    background-position: inherit;
+    background-size: 100%, 110%;
+    @media only screen and (max-width: 700px) {
+        background-image: none;
+    }
+}
+
+.piller2-footer {
+    width: 100%;
+    background-image: url(../img/piller3-footer.png);
+    background-repeat: no-repeat;
+    background-position: inherit;
+    background-size: 100%, 110%;
+    @media only screen and (max-width: 700px) {
+        background-image: none;
+    }
+}
+
+.pillar-banner {
+    &__wrapper {
+        @include flex($justify: space-between, $align: center);
+        @media only screen and (max-width: 680px) {
+            flex-direction: column;
+            gap: 5rem;
+        }
+    }
+    &__left {
+        padding-left: 18rem;
+        width: 40%;
+        @media only screen and (max-width: 920px) {
+            width: 50%;
+        }
+        @media only screen and (max-width: 768px) {
+            width: 60%;
+            padding-left: 10rem;
+        }
+        @media only screen and (max-width: 680px) {
+            width: 100%;
+            padding: 5rem;
+        }
+        @media only screen and (max-width: 600px) {
+            padding: 18rem 0 0 0;
+            width: 60%;
+        }
+    }
+    .heading {
+        @media only screen and (max-width: 600px) {
+            margin-left: -4rem;
+        }
+    }
+    &__right {
+        width: 50%;
+        padding: 14rem 0;
+        @media only screen and (max-width: 680px) {
+            padding: 5rem 0;
+            margin-left: auto;
+            width: 70%;
+        }
+        @media only screen and (max-width: 600px) {
+            width: 50%;
+        }
+        @media only screen and (max-width: 500px) {
+            width: 80%;
+        }
+        .piller-img {
+            width: 100%;
+        }
+        .piller-2-hide {
+            visibility: hidden;
+            @media only screen and (max-width: 680px) {
+                visibility: visible;
+            }
+        }
+    }
+}
+
+.piller-content {
+    width: 100%;
+    .piller-content-wrapper {
+        width: 45%;
+        margin: 0 50% 0 33%;
+        @media only screen and (max-width: 1000px) {
+            width: 55%;
+        }
+        @media only screen and (max-width: 768px) {
+            width: 63%;
+        }
+        @media only screen and (max-width: 650px) {
+            width: 80%;
+            margin: 0 auto;
+        }
+    }
+    .two-silde-content {
+        display: flex;
+        gap: 3rem;
+        .heading-sm {
+            @media only screen and (max-width: 400px) {
+                font-size: 2.5rem;
+            }
+        }
+    }
+    .bg-lines {
+        width: 100%;
+        background-image: url(../img/bg-lines.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        @media only screen and(max-width: 420px) {
+            background-image: url(../img/piller-mbl-line.png);
+            background-position: center;
+        }
+    }
+    .piller-content-img {
+        width: 45%;
+        margin: 0 50% 0 33%;
+        @media only screen and (max-width: 1000px) {
+            width: 55%;
+        }
+        @media only screen and (max-width: 768px) {
+            width: 63%;
+        }
+        @media only screen and (max-width: 650px) {
+            width: 80%;
+            margin: 0 auto;
+        }
+        .okkta-content {
+            width: 100%;
+            box-shadow: $shadow-dark;
+        }
+    }
+}
+
+.piller1-bg {
+    background-color: #012AC4;
+}
+
+.piller2-bg {
+    background-color: #FF6733;
+}
+
+.piller3-bg {
+    background-color: #5D187B;
+}
+
+.highlight-content {
+    width: 100%;
+    padding-bottom: 4rem;
+    .piller-content-wrapper {
+        padding-top: 8rem;
+        width: 45%;
+        margin: 0 50% 0 33%;
+        @media only screen and (max-width: 1000px) {
+            width: 55%;
+        }
+        @media only screen and (max-width: 768px) {
+            width: 63%;
+        }
+        @media only screen and (max-width: 650px) {
+            width: 80%;
+            margin: 0 auto;
+        }
+    }
+    .two-silde-content {
+        display: flex;
+        gap: 3rem;
+        @media only screen and (max-width: 600px) {
+            flex-direction: column;
+        }
+        &__left,
+        &__right {
+            width: 50%;
+            @media only screen and (max-width: 600px) {
+                width: 100%;
+                padding-left: 5rem;
+            }
+        }
+    }
+}
+
+.section-cards {
+    width: 100%;
+    &__gw {
+        width: 60%;
+        margin: 0px 0% 0 27%;
+        transform: width .3s ease;
+        @media only screen and (max-width: 1310px) {
+            margin: 0 auto;
+            width: 80%;
+        }
+        .cards-heading {
+            @media only screen and (max-width: 768px) {
+                font-size: 4rem;
+            }
+        }
+    }
+    &__wrapper {
+        @include flex ($justify: space-between, $align: center);
+        gap: 2rem;
+        @media only screen and (max-width: 1310px) {
+            justify-content: center;
+        }
+        @media only screen and (max-width: 650px) {
+            flex-direction: column;
+        }
+    }
+    .blue-outline {
+        background-color: blueviolet;
+        padding: 1rem .5rem;
+        border-radius: 1rem;
+        .italic {
+            font-size: 13px;
+            font-weight: 600;
+            padding-left: 3rem;
+            position: relative;
+            font-style: italic;
+            z-index: 1;
+            &::after {
+                content: "";
+                height: .5px;
+                width: 100%;
+                border-top: .5px solid #EB9AC3;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                z-index: -1;
+            }
+        }
+    }
+    .cards-wrapper {
+        width: 30rem;
+        background-color: #EB9AC3;
+        border-radius: 1rem;
+        position: relative;
+        transform: width .3s ease;
+        box-shadow: 1px 1px 10px rgba(67, 61, 61, 0.173);
+        @media only screen and (max-width: 768px) {
+            width: 26rem;
+        }
+        @media only screen and (max-width: 675px) {
+            width: 24rem;
+        }
+        @media only screen and (max-width: 650px) {
+            width: 33rem;
+        }
+        z-index: 1;
+        .card-1 {
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            z-index: -1;
+        }
+        .card-2 {
+            position: absolute;
+            top: 0;
+            right: 0;
+            z-index: -1;
+        }
+        .card-3 {
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            z-index: -1;
+        }
+    }
+    .cards-title {
+        padding: 2rem;
+    }
+    .list-wrapper {
+        list-style-type: circle;
+        padding: 3rem 0 3rem 4rem;
+        li {
+            font-size: 1.6rem;
+        }
+    }
+}
+
+.fixed-box {
+    background-color: #DDDDDD;
+    border-radius: 0 3rem 3rem 0;
+    margin-top: -24rem;
+    width: 30rem;
+    height: 36rem;
+    padding: 3rem;
+    transition: transform .3s ease;
+    @media only screen and (max-width: 600px) {
+        background-color: #dddddde3;
+    }
+}
+
+.sticky-box {
+    z-index: 100;
+    position: sticky;
+    left: 0;
+    top: 50%;
+}
+
+.fixed-left-line {
+    height: 36rem;
+    margin-top: -24rem;
+    width: 2rem;
+    position: relative;
+    background-color: #F63379;
+    z-index: 5;
+    .arrow-right {
+        position: absolute;
+        top: 50%;
+        left: 27%;
+        color: white;
+        font-size: 2rem;
+        display: none;
+        transition: 0.8s;
+        transform: rotateY(0);
+        @media only screen and (max-width: 1310px) {
+            display: block;
+        }
+    }
+}
+
+.translate-left {
+    transform: translateX(-40rem);
+}
+
+.rotate-icon {
+    transform: rotateY(180deg)!important;
+}
+
+.ancher-wrapper {
+    a {
+        text-decoration: underline;
+        color: #012AC4;
+        font-size: 1.9rem;
+    }
+    .fixed-box-text {
+        font-size: 1.7rem;
+    }
+}
+
+.banner-bottom {
+    width: 100%;
+    &__wrappper {
+        @include flex($justify: unset, $align: center);
+        gap: 4rem;
+        width: 70%;
+        margin: 0 auto;
+        padding-left: 3rem;
+        @media only screen and(max-width: 900px) {
+            width: 90%;
+        }
+        @media only screen and(max-width: 700px) {
+            width: 100%;
+        }
+        @media only screen and(max-width: 600px) {
+            flex-direction: row-reverse;
+        }
+        .heading {
+            line-height: 1;
+        }
+        .ft-person {
+            margin-top: -5rem;
+            @media only screen and(max-width: 600px) {
+                margin-top: 5rem;
+                width: 40%;
+            }
+            @media only screen and(max-width: 430px) {
+                margin-top: 14rem;
+            }
+        }
+        .heading-x-lg {
+            font-size: 7rem;
+            font-weight: 700;
+            @media only screen and(max-width: 600px) {
+                font-size: 5rem;
+            }
+            @media only screen and(max-width: 430px) {
+                font-size: 4.5rem;
+            }
+            @media only screen and(max-width: 400px) {
+                font-size: 3.5rem;
+            }
+        }
+    }
+}

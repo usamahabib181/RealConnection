@@ -1,0 +1,41 @@
+.header-btn {
+    font-size: 1.5rem;
+    font-weight: 500;
+    border-radius: .4rem;
+    border: 1px solid transparent;
+    color: #ffff;
+    font-family: 'Roboto', sans-serif;
+    padding: 1.2rem 2.5rem 1.2rem 2.2rem;
+    display: inline-block;
+    background-color: #F63379;
+    &:hover {
+        color: white;
+    }
+    @media only screen and(max-width:600px) {
+        font-size: 2rem;
+    }
+}
+
+.pink-bg {
+    transition: all .3s ease-in;
+    &:hover {
+        background-color: transparent;
+        border: 1px solid #F63379;
+        color: #F63379;
+    }
+}
+
+.form-btn {
+    background-color: #012AC4;
+    color: white;
+    transition: all .3s ease-in;
+    &:hover {
+        background-color: transparent;
+        border: 1px solid #012AC4;
+        color: #012AC4;
+    }
+}
+
+.btn {
+    font-weight: bold;
+}

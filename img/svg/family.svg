@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="49.353" height="28.492" viewBox="0 0 49.353 28.492">
+  <g id="Group_74" data-name="Group 74" transform="translate(-295.764 -1270.25)">
+    <path id="Icon_ionic-md-person" data-name="Icon ionic-md-person" d="M15.75,16.25a5.771,5.771,0,0,0,5.625-5.875A5.771,5.771,0,0,0,15.75,4.5a5.771,5.771,0,0,0-5.625,5.875A5.771,5.771,0,0,0,15.75,16.25Zm0,2.938c-3.726,0-11.25,1.983-11.25,5.875V28H27V25.063C27,21.17,19.476,19.188,15.75,19.188Z" transform="translate(317.618 1266.25)" fill="none" stroke="#f63379" stroke-width="1"/>
+    <path id="Icon_ionic-md-person-2" data-name="Icon ionic-md-person" d="M16.118,16.118a5.809,5.809,0,1,0-5.809-5.809A5.826,5.826,0,0,0,16.118,16.118Zm0,2.9C12.27,19.022,4.5,20.983,4.5,24.831v2.9H27.736v-2.9C27.736,20.983,19.966,19.022,16.118,19.022Z" transform="translate(291.764 1266.514)" fill="none" stroke="#f63379" stroke-width="1"/>
+    <path id="Icon_ionic-md-person-3" data-name="Icon ionic-md-person" d="M11.434,11.742A3.557,3.557,0,0,0,14.9,8.121,3.557,3.557,0,0,0,11.434,4.5,3.557,3.557,0,0,0,7.967,8.121,3.557,3.557,0,0,0,11.434,11.742Zm0,1.811c-2.3,0-6.934,1.222-6.934,3.621v1.811H18.368V17.174C18.368,14.775,13.731,13.553,11.434,13.553Z" transform="translate(308.5 1279.258)" fill="#fff" stroke="#f63379" stroke-width="1"/>
+  </g>
+</svg>

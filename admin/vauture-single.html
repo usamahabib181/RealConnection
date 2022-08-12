@@ -1,0 +1,893 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Tell the browser to be responsive to screen width -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="wrappixel, admin dashboard, html css dashboard, web dashboard, bootstrap 5 admin, bootstrap 5, css3 dashboard, bootstrap 5 dashboard, Ample lite admin bootstrap 5 dashboard, frontend, responsive bootstrap 5 admin template, Ample admin lite dashboard bootstrap 5 dashboard template">
+    <meta name="description" content="Ample Admin Lite is powerful and clean admin dashboard template, inpired from Bootstrap Framework">
+    <meta name="robots" content="noindex,nofollow">
+    <title>ReaLConnection</title>
+    <link rel="canonical" href="https://www.wrappixel.com/templates/ample-admin-lite/" />
+    <!-- Favicon icon -->
+    <link rel="icon" type="image/png" sizes="16x16" href="plugins/images/favicone.svg">
+    <!-- Custom CSS -->
+    <link href="css/style.min.css" rel="stylesheet">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+</head>
+
+<body>
+    <!-- ============================================================== -->
+    <!-- Preloader - style you can find in spinners.css -->
+    <!-- ============================================================== -->
+    <div class="preloader">
+        <div class="lds-ripple">
+            <div class="lds-pos"></div>
+            <div class="lds-pos"></div>
+        </div>
+    </div>
+    <!-- ============================================================== -->
+    <!-- Main wrapper - style you can find in pages.scss -->
+    <!-- ============================================================== -->
+    <div id="main-wrapper" data-layout="vertical" data-navbarbg="skin5" data-sidebartype="full" data-sidebar-position="absolute" data-header-position="absolute" data-boxed-layout="full">
+        <!-- ============================================================== -->
+        <!-- Topbar header - style you can find in pages.scss -->
+        <!-- ============================================================== -->
+        <header class="topbar" data-navbarbg="skin5">
+            <nav class="navbar top-navbar navbar-expand-md navbar-dark">
+                <div class="navbar-header" data-logobg="skin6">
+                    <!-- ============================================================== -->
+                    <!-- Logo -->
+                    <!-- ============================================================== -->
+                    <a class="navbar-brand" href="dashboard.html">
+                        <!-- Logo text -->
+                        <span class="logo-text">
+                            <!-- dark Logo text -->
+                            <img src="plugins/images/users/logo.png" alt="homepage" />
+                        </span>
+                    </a>
+                    <!-- ============================================================== -->
+                    <!-- End Logo -->
+                    <!-- ============================================================== -->
+                    <!-- ============================================================== -->
+                    <!-- toggle and nav items -->
+                    <!-- ============================================================== -->
+                    <a class="nav-toggler waves-effect waves-light text-dark d-block d-md-none" href="javascript:void(0)"><i class="ti-menu ti-close"></i></a>
+                </div>
+                <!-- ============================================================== -->
+                <!-- End Logo -->
+                <!-- ============================================================== -->
+                <div class="navbar-collapse collapse" id="navbarSupportedContent" data-navbarbg="skin5">
+                    <ul class="navbar-nav d-none d-md-block d-lg-none">
+                        <li class="nav-item">
+                            <a class="nav-toggler nav-link waves-effect waves-light text-white" href="javascript:void(0)"><i class="ti-menu ti-close"></i></a>
+                        </li>
+                    </ul>
+                    <!-- ============================================================== -->
+                    <!-- Right side toggle and nav items -->
+                    <!-- ============================================================== -->
+                    <ul class="navbar-nav ms-auto d-flex align-items-center">
+
+                        <!-- ============================================================== -->
+                        <!-- Search -->
+                        <!-- ============================================================== -->
+                        <li class=" in">
+                            <form role="search" class="app-search d-none d-md-block me-3">
+                                <input type="text" placeholder="Search..." class="form-control mt-0">
+                                <a href="" class="active">
+                                    <i class="fa fa-search"></i>
+                                </a>
+                            </form>
+                        </li>
+                        <!-- ============================================================== -->
+                        <!-- User profile and search -->
+                        <!-- ============================================================== -->
+                        <li>
+                            <a class="profile-pic" href="#">
+                                <img src="plugins/images/users/varun.jpg" alt="user-img" width="36" class="img-circle"><span class="text-white font-medium">Steave</span></a>
+                        </li>
+                        <!-- ============================================================== -->
+                        <!-- User profile and search -->
+                        <!-- ============================================================== -->
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <!-- ============================================================== -->
+        <!-- End Topbar header -->
+        <!-- ============================================================== -->
+        <!-- ============================================================== -->
+        <!-- Left Sidebar - style you can find in sidebar.scss  -->
+        <!-- ============================================================== -->
+        <aside class="left-sidebar" data-sidebarbg="skin6">
+            <!-- Sidebar scroll-->
+            <div class="scroll-sidebar">
+                <!-- Sidebar navigation-->
+                <nav class="sidebar-nav">
+                    <ul id="sidebarnav">
+                        <!-- User Profile-->
+                        <li class="sidebar-item pt-2">
+                            <a class="sidebar-link waves-effect waves-dark sidebar-link" href="dashboard.html" aria-expanded="false">
+                                <i class="far fa-clock" aria-hidden="true"></i>
+                                <span class="hide-menu">Dashboard</span>
+                            </a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a class="sidebar-link waves-effect waves-dark sidebar-link" href="home.html" aria-expanded="false">
+                                <i class="fa fa-user" aria-hidden="true"></i>
+                                <span class="hide-menu">HomePage</span>
+                            </a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a class="sidebar-link waves-effect waves-dark sidebar-link" href="home-page-menu.html" aria-expanded="false">
+                                <i class="far fa-calendar-minus"></i>
+                                <span class="hide-menu">Home page Menu</span>
+                            </a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a class="sidebar-link waves-effect waves-dark sidebar-link" href="over-ons.html" aria-expanded="false">
+                                <i class="fa fa-table" aria-hidden="true"></i>
+                                <span class="hide-menu">Over Ons</span>
+                            </a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a class="sidebar-link waves-effect waves-dark sidebar-link" href="vauture-single.html" aria-expanded="false">
+                                <i class="fab fa-yelp"></i>
+                                <span class="hide-menu">Vacuture Single</span>
+                            </a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a class="sidebar-link waves-effect waves-dark sidebar-link" href="piller-okla.html" aria-expanded="false">
+                                <i class="fab fa-periscope"></i>
+                                <span class="hide-menu">Piller page Okta</span>
+                            </a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a class="sidebar-link waves-effect waves-dark sidebar-link" href="piller-microsoft.html" aria-expanded="false">
+                                <i class="fab fa-windows"></i>
+                                <span class="hide-menu">Piller page Microsoft</span>
+                            </a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a class="sidebar-link waves-effect waves-dark sidebar-link" href="piller-zendesk.html" aria-expanded="false">
+                                <i class="fas fa-window-maximize"></i>
+                                <span class="hide-menu">Piller page Zendesk</span>
+                            </a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a class="sidebar-link waves-effect waves-dark sidebar-link" href="okla-sign-on.html" aria-expanded="false">
+                                <i class=" fas fa-diagnoses"></i>
+                                <span class="hide-menu">Single page Okta</span>
+                            </a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a class="sidebar-link waves-effect waves-dark sidebar-link" href="contact.html" aria-expanded="false">
+                                <i class="far fa-calendar-minus"></i>
+                                <span class="hide-menu">Contact</span>
+                            </a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a class="sidebar-link waves-effect waves-dark sidebar-link" href="footer.html" aria-expanded="false">
+                                <i class="far fa-calendar-minus"></i>
+                                <span class="hide-menu">Footer</span>
+                            </a>
+                        </li>
+
+                        <li class="sidebar-item">
+                            <a class="sidebar-link waves-effect waves-dark sidebar-link" href="Home-page-slider.html" aria-expanded="false">
+                                <i class="far fa-calendar-minus"></i>
+                                <span class="hide-menu">Home page Slider</span>
+                            </a>
+                        </li>
+                        <li class="text-center p-20 upgrade-btn">
+                            <a href="#" class="btn d-grid btn-danger text-white" target="_blank">
+                                Logout</a>
+                        </li>
+                    </ul>
+                </nav>
+                <!-- End Sidebar navigation -->
+            </div>
+            <!-- End Sidebar scroll-->
+        </aside>
+        <!-- ============================================================== -->
+        <!-- End Left Sidebar - style you can find in sidebar.scss  -->
+        <!-- ============================================================== -->
+        <!-- ============================================================== -->
+        <!-- Page wrapper  -->
+        <!-- ============================================================== -->
+        <div class="page-wrapper">
+            <!-- ============================================================== -->
+            <!-- Bread crumb and right sidebar toggle -->
+            <!-- ============================================================== -->
+            <div class="page-breadcrumb bg-white">
+                <div class="row align-items-center">
+                    <div class="col-lg-3 col-md-4 col-sm-4 col-xs-12">
+                        <h4 class="page-title">Profile page</h4>
+                    </div>
+                    <div class="col-lg-9 col-sm-8 col-md-8 col-xs-12">
+                        <div class="d-md-flex">
+                            <ol class="breadcrumb ms-auto">
+                                <li><a href="#" class="fw-normal">Dashboard</a></li>
+                            </ol>
+                            <a href="https://www.wrappixel.com/templates/ampleadmin/" target="_blank" class="btn btn-danger  d-none d-md-block pull-right ms-3 hidden-xs hidden-sm waves-effect waves-light text-white">Upgrade
+                                to Pro</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- /.col-lg-12 -->
+            </div>
+            <!-- ============================================================== -->
+            <!-- End Bread crumb and right sidebar toggle -->
+            <!-- ============================================================== -->
+            <!-- ============================================================== -->
+            <!-- Container fluid  -->
+            <!-- ============================================================== -->
+            <div class="container-fluid">
+                <!-- ============================================================== -->
+                <!-- Start Page Content -->
+                <!-- ============================================================== -->
+                <!-- Row -->
+                <div class="row">
+                    <!-- Column -->
+                    <div class="col-lg-6 col-xlg-6 col-md-12">
+                        <h1>Update</h1>
+                        <div class="card">
+                            <div class="card-body">
+                                <form class="form-horizontal form-material">
+                                    <div class="form-group show-img border-bottom">
+                                        <label class="col-md-12 p-0 fs-5">Favicon</label>
+                                        <div class="image-upload-one my-1">
+                                            <div class="form-input">
+                                                <label for="file-ip-1">
+                                                    <img id="file-ip-1-preview" src="/img/svg/favicone.svg">
+                                                    <button type="button" class="imgRemove" onclick="myImgRemove(1)"></button>
+                                                  </label>
+                                                <input type="file" name="img_one" id="file-ip-1" accept="image/*" onchange="showPreview(event, 1);">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group mb-4">
+                                        <label class="col-md-12 p-0 fs-5">Page Title</label>
+                                        <div class="col-md-12 border-bottom p-0">
+                                            <textarea row="1" class="form-control p-0 border-0" style="width: 100%;" rows="3">ReaL Connection</textarea>
+                                        </div>
+                                    </div>
+                                    <div class="form-group mb-4">
+                                        <label class="col-md-12 p-0 fs-5">Page Discription</label>
+                                        <div class="col-md-12 border-bottom p-0">
+                                            <textarea row="1" class="form-control p-0 border-0" style="width: 100%;" rows="3">clients.websitespace.nl</textarea>
+                                        </div>
+                                    </div>
+                                    <div class="form-group show-img border-bottom">
+                                        <label class="col-md-12 p-0 fs-5">Banner Image(Desktop)</label>
+                                        <div class="image-upload-sixt my-1">
+                                            <div class="center">
+                                                <div class="form-input">
+                                                    <label for="file-ip-24">
+                                                      <img id="file-ip-24-preview" src="./img/index-banner-3.png">
+                                                      <button type="button" class="imgRemove" onclick="myImgRemove(24)"></button>
+                                                    </label>
+                                                    <input type="file" name="img_fif" id="file-ip-24" accept="image/*" onchange="showPreview(event, 24);">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group show-img border-bottom">
+                                        <label class="col-md-12 p-0 fs-5">Banner Image(Mobile)</label>
+                                        <div class="image-upload-sixt my-1">
+                                            <div class="center">
+                                                <div class="form-input">
+                                                    <label for="file-ip-24">
+                                                      <img id="file-ip-24-preview" src="./img/index-3-mbl.png">
+                                                      <button type="button" class="imgRemove" onclick="myImgRemove(24)"></button>
+                                                    </label>
+                                                    <input type="file" name="img_fif" id="file-ip-24" accept="image/*" onchange="showPreview(event, 24);">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group mb-4">
+                                        <label class="col-md-12 p-0 fs-5">Main Large Heading</label>
+                                        <div class="col-md-12 border-bottom p-0">
+                                            <textarea row="1" class="form-control p-0 border-0" style="width: 100%;" rows="3">Vacature</textarea>
+                                        </div>
+                                    </div>
+                                    <div class="form-group mb-4">
+                                        <label class="col-md-12 p-0 fs-5">Small Heading</label>
+                                        <div class="col-md-12 border-bottom p-0">
+                                            <textarea row="3" class="form-control p-0 border-0" style="width: 100%; " rows="3">Customer Experience Specialist (Cloud)</textarea>
+                                        </div>
+                                    </div>
+                                    <div class="form-group mb-4 fs-5">
+                                        <label class="col-md-12 p-0">Details</label>
+                                        <div class="col-md-12 border-bottom p-0">
+                                            <textarea rows="3" class="form-control p-0 border-0">40 uur</textarea>
+                                        </div>
+                                    </div>
+                                    <div class="form-group mb-4 fs-5">
+                                        <label class="col-md-12 p-0">Details</label>
+                                        <div class="col-md-12 border-bottom p-0">
+                                            <textarea rows="3" class="form-control p-0 border-0">Medior positie</textarea>
+                                        </div>
+                                    </div>
+                                    <div class="form-group mb-4 fs-5">
+                                        <label class="col-md-12 p-0">Details</label>
+                                        <div class="col-md-12 border-bottom p-0">
+                                            <textarea rows="3" class="form-control p-0 border-0">Utrecht</textarea>
+                                        </div>
+                                    </div>
+                                    <div class="form-group mb-4 fs-5">
+                                        <label class="col-md-12 p-0 fs-5">Large heading</label>
+                                        <div class="col-md-12 border-bottom p-0">
+                                            <textarea rows="3" class="form-control p-0 border-0">Werken bij RealConnections</textarea>
+                                        </div>
+                                    </div>
+                                    <div class="form-group mb-4">
+                                        <label class="col-md-12 p-0 fs-5">Details</label>
+                                        <div class="col-md-12 border-bottom p-0">
+                                            <textarea row="3" class="form-control p-0 border-0" style="width: 100%; " rows="3">Altijd al willen werken in een gezellig team met de nieuwste technische snufjes op flexibele plekken? Dan ben jij misschien wel ons nieuwe teamlid.</textarea>
+                                        </div>
+                                    </div>
+                                    <div class="form-group mb-4">
+                                        <label class="col-md-12 p-0 fs-5">Details</label>
+                                        <div class="col-md-12 border-bottom p-0">
+                                            <textarea row="3" class="form-control p-0 border-0" style="width: 100%; " rows="3">Wij zijn RealConnections. Aangenaam! Wat we doen? We helpen onze om efficiënt en zorgeloos hun klanten te bedienen door middel van SaaS tools. Dit doen we door op een uitzonderlijke manier pro-actief support te bieden en onze communicatieve en technische kennis in de strijd te gooien. Altijd vanuit het motto: we got you. Bij ons is de vraag niet of we kunnen helpen maar hoe we kunnen helpen.</textarea>
+                                        </div>
+                                    </div>
+                                    <div class="form-group mb-4 fs-5">
+                                        <label class="col-md-12 p-0 fs-5">Small heading</label>
+                                        <div class="col-md-12 border-bottom p-0">
+                                            <textarea rows="3" class="form-control p-0 border-0">We got you</textarea>
+                                        </div>
+                                    </div>
+                                    <div class="form-group mb-4">
+                                        <label class="col-md-12 p-0 fs-5">Details</label>
+                                        <div class="col-md-12 border-bottom p-0">
+                                            <textarea row="3" class="form-control p-0 border-0" style="width: 100%; " rows="3">We hebben kennis en expertise in huis om bedrijven te trainen, te adviseren en hulpvraagstukken op te lossen. Hierdoor kunnen onze klanten zich focussen op hun eigen werk, wij doen de rest. Toevallig zijn we erg goed in deze Big Four: Zendesk, Okta, Office 365, GSuite. Maar werken we ook nog met de ‘Smaller Ten’ aan SaaS tools. Deze leer je vanzelf kennen.</textarea>
+                                        </div>
+                                    </div>
+                                    <div class="form-group mb-4 fs-5">
+                                        <label class="col-md-12 p-0 fs-5">Small heading</label>
+                                        <div class="col-md-12 border-bottom p-0">
+                                            <textarea rows="3" class="form-control p-0 border-0">Wat ga je doen?</textarea>
+                                        </div>
+                                    </div>
+                                    <div class="form-group mb-4">
+                                        <label class="col-md-12 p-0 fs-5">Details</label>
+                                        <div class="col-md-12 border-bottom p-0">
+                                            <textarea row="3" class="form-control p-0 border-0" style="width: 100%; " rows="3">Werken waar je maar wil en elke donderdag in Amersfoort</textarea>
+                                        </div>
+                                    </div>
+                                    <div class="form-group mb-4 fs-5">
+                                        <label class="col-md-12 p-0 fs-5">Small heading</label>
+                                        <div class="col-md-12 border-bottom p-0">
+                                            <textarea rows="3" class="form-control p-0 border-0">Beantwoorden en oplossen van (technische en communicatieve) supportvragen</textarea>
+                                        </div>
+                                    </div>
+                                    <div class="form-group mb-4">
+                                        <label class="col-md-12 p-0 fs-5">Details</label>
+                                        <div class="col-md-12 border-bottom p-0">
+                                            <textarea row="3" class="form-control p-0 border-0" style="width: 100%; " rows="3">Opzetten en configureren van SaaS tools bij klanten</textarea>
+                                        </div>
+                                    </div>
+                                    <div class="form-group mb-4 fs-5">
+                                        <label class="col-md-12 p-0 fs-5">Details</label>
+                                        <div class="col-md-12 border-bottom p-0">
+                                            <textarea rows="3" class="form-control p-0 border-0">Training geven bij onze klanten</textarea>
+                                        </div>
+                                    </div>
+                                    <div class="form-group mb-4">
+                                        <label class="col-md-12 p-0 fs-5">Details</label>
+                                        <div class="col-md-12 border-bottom p-0">
+                                            <textarea row="3" class="form-control p-0 border-0" style="width: 100%; " rows="3">Het maximale resultaat halen op alle vlakken bij het samen met de klant gekozen vraagstuk</textarea>
+                                        </div>
+                                    </div>
+                                    <div class="form-group mb-4 fs-5">
+                                        <label class="col-md-12 p-0 fs-5">Details</label>
+                                        <div class="col-md-12 border-bottom p-0">
+                                            <textarea rows="3" class="form-control p-0 border-0">Gemiddeld een dag per week in onze supportdienst FLOH (First Line Of Help)</textarea>
+                                        </div>
+                                    </div>
+                                    <div class="form-group mb-4 fs-5">
+                                        <label class="col-md-12 p-0 fs-5">Details</label>
+                                        <div class="col-md-12 border-bottom p-0">
+                                            <textarea rows="3" class="form-control p-0 border-0">Werken aan projecten om ons bedrijf en diensten nog leuker en beter te maken</textarea>
+                                        </div>
+                                    </div>
+                                    <div class="form-group mb-4 fs-5">
+                                        <label class="col-md-12 p-0 fs-5">Large Heading</label>
+                                        <div class="col-md-12 border-bottom p-0">
+                                            <textarea rows="3" class="form-control p-0 border-0">Wat krijg je van ons?</textarea>
+                                        </div>
+                                    </div>
+                                    <div class="form-group mb-4 fs-5">
+                                        <label class="col-md-12 p-0 fs-5">Details</label>
+                                        <div class="col-md-12 border-bottom p-0">
+                                            <textarea rows="3" class="form-control p-0 border-0">…je vindt het leuk vindt om klantrelaties op te bouwen en te onderhouden</textarea>
+                                        </div>
+                                    </div>
+                                    <div class="form-group mb-4 fs-5">
+                                        <label class="col-md-12 p-0 fs-5">Details</label>
+                                        <div class="col-md-12 border-bottom p-0">
+                                            <textarea rows="3" class="form-control p-0 border-0">...je wordt dolblij wordt van support leveren en creatieve oplossingen</textarea>
+                                        </div>
+                                    </div>
+                                    <div class="form-group mb-4 fs-5">
+                                        <label class="col-md-12 p-0 fs-5">Details</label>
+                                        <div class="col-md-12 border-bottom p-0">
+                                            <textarea rows="3" class="form-control p-0 border-0">…je hebt affiniteit heeft met technische snufjes en SaaS tools</textarea>
+                                        </div>
+                                    </div>
+                                    <div class="form-group mb-4 fs-5">
+                                        <label class="col-md-12 p-0 fs-5">Details</label>
+                                        <div class="col-md-12 border-bottom p-0">
+                                            <textarea rows="3" class="form-control p-0 border-0">…je kan goed zelfstandig kan werken</textarea>
+                                        </div>
+                                    </div>
+                                    <div class="form-group mb-4 fs-5">
+                                        <label class="col-md-12 p-0 fs-5">Details</label>
+                                        <div class="col-md-12 border-bottom p-0">
+                                            <textarea rows="3" class="form-control p-0 border-0">…je hebt minimaal HBO denk- en werkniveau</textarea>
+                                        </div>
+                                    </div>
+                                    <div class="form-group mb-4 fs-5">
+                                        <label class="col-md-12 p-0 fs-5">Details</label>
+                                        <div class="col-md-12 border-bottom p-0">
+                                            <textarea rows="3" class="form-control p-0 border-0">..een echte jongleur is? Oftewel: jij zit op multitasken.</textarea>
+                                        </div>
+                                    </div>
+                                    <!--  -->
+                                    <div class="form-group mb-4">
+                                        <label class="col-md-12 p-0 fs-5">Large Heading</label>
+                                        <div class="col-md-12 border-bottom p-0">
+                                            <textarea row="3" class="form-control p-0 border-0" style="width: 100%; " rows="3">Dubbel check: wat neem je mee?</textarea>
+                                        </div>
+                                    </div>
+                                    <div class="form-group mb-4 fs-5">
+                                        <label class="col-md-12 p-0 fs-5">Details</label>
+                                        <div class="col-md-12 border-bottom p-0">
+                                            <textarea rows="3" class="form-control p-0 border-0">Een volle bak met enthousiasme om onze klanten zo goed mogelijk te helpen</textarea>
+                                        </div>
+                                    </div>
+                                    <div class="form-group mb-4 fs-5">
+                                        <label class="col-md-12 p-0 fs-5">Details</label>
+                                        <div class="col-md-12 border-bottom p-0">
+                                            <textarea rows="3" class="form-control p-0 border-0">Een kritische blik om zowel RealConnections als onze klanten te helpen en beter te maken.</textarea>
+                                        </div>
+                                    </div>
+                                    <div class="form-group mb-4 fs-5">
+                                        <label class="col-md-12 p-0 fs-5">Details</label>
+                                        <div class="col-md-12 border-bottom p-0">
+                                            <textarea rows="3" class="form-control p-0 border-0">Liters zelfstandigheid om op eigen houtje aan de slag te kunnen</textarea>
+                                        </div>
+                                    </div>
+                                    <div class="form-group mb-4 fs-5">
+                                        <label class="col-md-12 p-0 fs-5">Details</label>
+                                        <div class="col-md-12 border-bottom p-0">
+                                            <textarea rows="3" class="form-control p-0 border-0">Een rijbewijs, want sommige klanten bereik je nu eenmaal niet makkelijk met het OV</textarea>
+                                        </div>
+                                    </div>
+                                    <div class="form-group mb-4 fs-5">
+                                        <label class="col-md-12 p-0 fs-5">Details</label>
+                                        <div class="col-md-12 border-bottom p-0">
+                                            <textarea rows="3" class="form-control p-0 border-0">Ervaring op het gebied van SaaS tools is een pré. Het liefst heb je al eens gewerkt met één van onze Big Four</textarea>
+                                        </div>
+                                    </div>
+                                    <div class="form-group mb-4">
+                                        <label class="col-md-12 p-0 fs-5">Large Heading</label>
+                                        <div class="col-md-12 border-bottom p-0">
+                                            <textarea row="3" class="form-control p-0 border-0" style="width: 100%; " rows="3">Check, ben jij dit?</textarea>
+                                        </div>
+                                    </div>
+                                    <div class="form-group mb-4 fs-5">
+                                        <label class="col-md-12 p-0 fs-5">Details</label>
+                                        <div class="col-md-12 border-bottom p-0">
+                                            <textarea rows="3" class="form-control p-0 border-0">8 gezellige collega’s met een gezonde dosis humor.</textarea>
+                                        </div>
+                                    </div>
+                                    <div class="form-group mb-4 fs-5">
+                                        <label class="col-md-12 p-0 fs-5">Details</label>
+                                        <div class="col-md-12 border-bottom p-0">
+                                            <textarea rows="3" class="form-control p-0 border-0">Veel vrijheid, qua indeling in je werk maar ook waar je werkt</textarea>
+                                        </div>
+                                    </div>
+                                    <div class="form-group mb-4 fs-5">
+                                        <label class="col-md-12 p-0 fs-5">Details</label>
+                                        <div class="col-md-12 border-bottom p-0">
+                                            <textarea rows="3" class="form-control p-0 border-0">Alles wat je nodig hebt om overal te kunnen werken (laptop, headset etc.)</textarea>
+                                        </div>
+                                    </div>
+                                    <div class="form-group mb-4 fs-5">
+                                        <label class="col-md-12 p-0 fs-5">Details</label>
+                                        <div class="col-md-12 border-bottom p-0">
+                                            <textarea rows="3" class="form-control p-0 border-0">4 dagen werken = 5 dagen salaris, of 5 dagen werken. Dat kan natuurlijk ook.</textarea>
+                                        </div>
+                                    </div>
+                                    <div class="form-group mb-4 fs-5">
+                                        <label class="col-md-12 p-0 fs-5">Details</label>
+                                        <div class="col-md-12 border-bottom p-0">
+                                            <textarea rows="3" class="form-control p-0 border-0">Uiteraard een mooi salaris met daarbij uitstekende secundaire arbeidsvoorwaarden - dat belooft elke vacature, maar bij ons is het echt zo.</textarea>
+                                        </div>
+                                    </div>
+                                    <div class="form-group mb-4 fs-5">
+                                        <label class="col-md-12 p-0 fs-5">Details</label>
+                                        <div class="col-md-12 border-bottom p-0">
+                                            <textarea rows="3" class="form-control p-0 border-0">Mogelijkheid om jezelf bij te scholen</textarea>
+                                        </div>
+                                    </div>
+                                    <div class="form-group mb-4">
+                                        <label class="col-md-12 p-0 fs-5">Large Heading</label>
+                                        <div class="col-md-12 border-bottom p-0">
+                                            <textarea row="3" class="form-control p-0 border-0" style="width: 100%; " rows="3">Solliciteer!</textarea>
+                                        </div>
+                                    </div>
+                                    <div class="form-group mb-4 fs-5">
+                                        <label class="col-md-12 p-0 fs-5">Details</label>
+                                        <div class="col-md-12 border-bottom p-0">
+                                            <textarea rows="3" class="form-control p-0 border-0">Ben je enthousiast en sta je te trappelen om aan de slag te gaan? Wacht dan geen seconde langer en solliciteer!</textarea>
+                                        </div>
+                                    </div>
+                                    <div class="form-group mb-4 fs-5">
+                                        <label class="col-md-12 p-0 fs-5">Details</label>
+                                        <div class="col-md-12 border-bottom p-0">
+                                            <textarea rows="3" class="form-control p-0 border-0">Hoe gaat dat in zijn werk? Stuur jouw CV naar ons op en stel je daarnaast aan ons voor. Dat mag via een brief, een video of een andere creatieve manier. Amaze us :)</textarea>
+                                        </div>
+                                    </div>
+                                    <div class="form-group mb-4 fs-5">
+                                        <label class="col-md-12 p-0 fs-5">Details</label>
+                                        <div class="col-md-12 border-bottom p-0">
+                                            <textarea rows="3" class="form-control p-0 border-0">Solliciteren kan via support@realconnections.nl t.a.v. Kay. Voor vragen kun je bellen naar 085-0653400.</textarea>
+                                        </div>
+                                    </div>
+                                    <div class="form-group mb-4">
+                                        <div class="col-sm-12">
+                                            <button class="btn btn-success">Save Changes</button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Column -->
+                    <!-- Column -->
+                    <div class="col-lg-6 col-xlg-6 col-md-12">
+                        <h1>Preview</h1>
+                        <div class="card">
+                            <div class="card-body">
+                                <form class="form-horizontal form-material">
+                                    <div class="form-group show-img border-bottom">
+                                        <label class="col-md-12 p-0 fs-5">Favicon</label>
+                                        <figure class="fig-img">
+                                            <img src="/img/svg/favicone.svg" alt="">
+                                        </figure>
+                                    </div>
+                                    <div class="form-group mb-4">
+                                        <label class="col-md-12 p-0 fs-5">Page Title</label>
+                                        <div class="col-md-12 border-bottom p-0">
+                                            <textarea row="1" class="form-control p-0 border-0" style="width: 100%;" rows="3" readonly>ReaL Connection</textarea>
+                                        </div>
+                                    </div>
+                                    <div class="form-group mb-4">
+                                        <label class="col-md-12 p-0 fs-5">Page Discription</label>
+                                        <div class="col-md-12 border-bottom p-0">
+                                            <textarea row="1" class="form-control p-0 border-0" style="width: 100%;" rows="3" readonly>clients.websitespace.nl</textarea>
+                                        </div>
+                                    </div>
+                                    <div class="form-group show-img border-bottom">
+                                        <label class="col-md-12 p-0 fs-5">Banner Image(Desktop)</label>
+                                        <figure class="fig-img">
+                                            <img src="./img/index-banner-3.png" style="object-fit: contain;" alt="">
+                                        </figure>
+                                    </div>
+                                    <div class="form-group show-img border-bottom">
+                                        <label class="col-md-12 p-0 fs-5">Banner Image(Mobile</label>
+                                        <figure class="fig-img">
+                                            <img src="./img/index-3-mbl.png" style="object-fit: contain;" alt="">
+                                        </figure>
+                                    </div>
+                                    <div class="form-group mb-4">
+                                        <label class="col-md-12 p-0 fs-5">Main Large Heading</label>
+                                        <div class="col-md-12 border-bottom p-0">
+                                            <textarea row="1" class="form-control p-0 border-0" style="width: 100%;" rows="3" readonly>Vacature</textarea>
+                                        </div>
+                                    </div>
+                                    <div class="form-group mb-4">
+                                        <label class="col-md-12 p-0 fs-5">Small Heading</label>
+                                        <div class="col-md-12 border-bottom p-0">
+                                            <textarea row="3" class="form-control p-0 border-0" style="width: 100%; " rows="3" readonly>Customer Experience Specialist (Cloud)</textarea>
+                                        </div>
+                                    </div>
+                                    <div class="form-group mb-4 fs-5">
+                                        <label class="col-md-12 p-0">Details</label>
+                                        <div class="col-md-12 border-bottom p-0">
+                                            <textarea rows="3" class="form-control p-0 border-0" readonly>40 uur</textarea>
+                                        </div>
+                                    </div>
+                                    <div class="form-group mb-4 fs-5">
+                                        <label class="col-md-12 p-0">Details</label>
+                                        <div class="col-md-12 border-bottom p-0">
+                                            <textarea rows="3" class="form-control p-0 border-0" readonly>Medior positie</textarea>
+                                        </div>
+                                    </div>
+                                    <div class="form-group mb-4 fs-5">
+                                        <label class="col-md-12 p-0">Details</label>
+                                        <div class="col-md-12 border-bottom p-0">
+                                            <textarea rows="3" class="form-control p-0 border-0" readonly>Utrecht</textarea>
+                                        </div>
+                                    </div>
+                                    <div class="form-group mb-4 fs-5">
+                                        <label class="col-md-12 p-0 fs-5">Large heading</label>
+                                        <div class="col-md-12 border-bottom p-0">
+                                            <textarea rows="3" class="form-control p-0 border-0" readonly>Werken bij RealConnections</textarea>
+                                        </div>
+                                    </div>
+                                    <div class="form-group mb-4">
+                                        <label class="col-md-12 p-0 fs-5">Details</label>
+                                        <div class="col-md-12 border-bottom p-0">
+                                            <textarea row="3" class="form-control p-0 border-0" style="width: 100%; " rows="3" readonly>Altijd al willen werken in een gezellig team met de nieuwste technische snufjes op flexibele plekken? Dan ben jij misschien wel ons nieuwe teamlid.</textarea>
+                                        </div>
+                                    </div>
+                                    <div class="form-group mb-4">
+                                        <label class="col-md-12 p-0 fs-5">Details</label>
+                                        <div class="col-md-12 border-bottom p-0">
+                                            <textarea row="3" class="form-control p-0 border-0" style="width: 100%; " rows="3" readonly>Wij zijn RealConnections. Aangenaam! Wat we doen? We helpen onze om efficiënt en zorgeloos hun klanten te bedienen door middel van SaaS tools. Dit doen we door op een uitzonderlijke manier pro-actief support te bieden en onze communicatieve en technische kennis in de strijd te gooien. Altijd vanuit het motto: we got you. Bij ons is de vraag niet of we kunnen helpen maar hoe we kunnen helpen.</textarea>
+                                        </div>
+                                    </div>
+                                    <div class="form-group mb-4 fs-5">
+                                        <label class="col-md-12 p-0 fs-5">Small heading</label>
+                                        <div class="col-md-12 border-bottom p-0">
+                                            <textarea rows="3" class="form-control p-0 border-0" readonly>We got you</textarea>
+                                        </div>
+                                    </div>
+                                    <div class="form-group mb-4">
+                                        <label class="col-md-12 p-0 fs-5">Details</label>
+                                        <div class="col-md-12 border-bottom p-0">
+                                            <textarea row="3" class="form-control p-0 border-0" style="width: 100%; " rows="3" readonly>We hebben kennis en expertise in huis om bedrijven te trainen, te adviseren en hulpvraagstukken op te lossen. Hierdoor kunnen onze klanten zich focussen op hun eigen werk, wij doen de rest. Toevallig zijn we erg goed in deze Big Four: Zendesk, Okta, Office 365, GSuite. Maar werken we ook nog met de ‘Smaller Ten’ aan SaaS tools. Deze leer je vanzelf kennen.</textarea>
+                                        </div>
+                                    </div>
+                                    <div class="form-group mb-4 fs-5">
+                                        <label class="col-md-12 p-0 fs-5">Small heading</label>
+                                        <div class="col-md-12 border-bottom p-0">
+                                            <textarea rows="3" class="form-control p-0 border-0" readonly>Wat ga je doen?</textarea>
+                                        </div>
+                                    </div>
+                                    <div class="form-group mb-4">
+                                        <label class="col-md-12 p-0 fs-5">Details</label>
+                                        <div class="col-md-12 border-bottom p-0">
+                                            <textarea row="3" class="form-control p-0 border-0" style="width: 100%; " rows="3" readonly>Werken waar je maar wil en elke donderdag in Amersfoort</textarea>
+                                        </div>
+                                    </div>
+                                    <div class="form-group mb-4 fs-5">
+                                        <label class="col-md-12 p-0 fs-5">Small heading</label>
+                                        <div class="col-md-12 border-bottom p-0">
+                                            <textarea rows="3" class="form-control p-0 border-0" readonly>Beantwoorden en oplossen van (technische en communicatieve) supportvragen</textarea>
+                                        </div>
+                                    </div>
+                                    <div class="form-group mb-4">
+                                        <label class="col-md-12 p-0 fs-5">Details</label>
+                                        <div class="col-md-12 border-bottom p-0">
+                                            <textarea row="3" class="form-control p-0 border-0" style="width: 100%; " rows="3" readonly>Opzetten en configureren van SaaS tools bij klanten</textarea>
+                                        </div>
+                                    </div>
+                                    <div class="form-group mb-4 fs-5">
+                                        <label class="col-md-12 p-0 fs-5">Details</label>
+                                        <div class="col-md-12 border-bottom p-0">
+                                            <textarea rows="3" class="form-control p-0 border-0" readonly>Training geven bij onze klanten</textarea>
+                                        </div>
+                                    </div>
+                                    <div class="form-group mb-4">
+                                        <label class="col-md-12 p-0 fs-5">Details</label>
+                                        <div class="col-md-12 border-bottom p-0">
+                                            <textarea row="3" class="form-control p-0 border-0" style="width: 100%; " rows="3" readonly>Het maximale resultaat halen op alle vlakken bij het samen met de klant gekozen vraagstuk</textarea>
+                                        </div>
+                                    </div>
+                                    <div class="form-group mb-4 fs-5">
+                                        <label class="col-md-12 p-0 fs-5">Details</label>
+                                        <div class="col-md-12 border-bottom p-0">
+                                            <textarea rows="3" class="form-control p-0 border-0" readonly>Gemiddeld een dag per week in onze supportdienst FLOH (First Line Of Help)</textarea>
+                                        </div>
+                                    </div>
+                                    <div class="form-group mb-4 fs-5">
+                                        <label class="col-md-12 p-0 fs-5">Details</label>
+                                        <div class="col-md-12 border-bottom p-0">
+                                            <textarea rows="3" class="form-control p-0 border-0" readonly>Werken aan projecten om ons bedrijf en diensten nog leuker en beter te maken</textarea>
+                                        </div>
+                                    </div>
+                                    <div class="form-group mb-4">
+                                        <label class="col-md-12 p-0 fs-5">Large Heading</label>
+                                        <div class="col-md-12 border-bottom p-0">
+                                            <textarea row="3" class="form-control p-0 border-0" style="width: 100%; " rows="3" readonly>Wat krijg je van ons? </textarea>
+                                        </div>
+                                    </div>
+                                    <div class="form-group mb-4 fs-5">
+                                        <label class="col-md-12 p-0 fs-5">Details</label>
+                                        <div class="col-md-12 border-bottom p-0">
+                                            <textarea rows="3" class="form-control p-0 border-0" readonly>…je vindt het leuk vindt om klantrelaties op te bouwen en te onderhouden</textarea>
+                                        </div>
+                                    </div>
+                                    <div class="form-group mb-4 fs-5">
+                                        <label class="col-md-12 p-0 fs-5">Details</label>
+                                        <div class="col-md-12 border-bottom p-0">
+                                            <textarea rows="3" class="form-control p-0 border-0" readonly>...je wordt dolblij wordt van support leveren en creatieve oplossingen</textarea>
+                                        </div>
+                                    </div>
+                                    <div class="form-group mb-4 fs-5">
+                                        <label class="col-md-12 p-0 fs-5">Details</label>
+                                        <div class="col-md-12 border-bottom p-0">
+                                            <textarea rows="3" class="form-control p-0 border-0" readonly>…je hebt affiniteit heeft met technische snufjes en SaaS tools</textarea>
+                                        </div>
+                                    </div>
+                                    <div class="form-group mb-4 fs-5">
+                                        <label class="col-md-12 p-0 fs-5">Details</label>
+                                        <div class="col-md-12 border-bottom p-0">
+                                            <textarea rows="3" class="form-control p-0 border-0" readonly>…je kan goed zelfstandig kan werken</textarea>
+                                        </div>
+                                    </div>
+                                    <div class="form-group mb-4 fs-5">
+                                        <label class="col-md-12 p-0 fs-5">Details</label>
+                                        <div class="col-md-12 border-bottom p-0">
+                                            <textarea rows="3" class="form-control p-0 border-0" readonly>…je hebt minimaal HBO denk- en werkniveau</textarea>
+                                        </div>
+                                    </div>
+                                    <div class="form-group mb-4 fs-5">
+                                        <label class="col-md-12 p-0 fs-5">Details</label>
+                                        <div class="col-md-12 border-bottom p-0">
+                                            <textarea rows="3" class="form-control p-0 border-0" readonly>..een echte jongleur is? Oftewel: jij zit op multitasken.</textarea>
+                                        </div>
+                                    </div>
+                                    <!--  -->
+                                    <div class="form-group mb-4">
+                                        <label class="col-md-12 p-0 fs-5">Large Heading</label>
+                                        <div class="col-md-12 border-bottom p-0">
+                                            <textarea row="3" class="form-control p-0 border-0" style="width: 100%; " rows="3" readonly>Dubbel check: wat neem je mee?</textarea>
+                                        </div>
+                                    </div>
+                                    <div class="form-group mb-4 fs-5">
+                                        <label class="col-md-12 p-0 fs-5">Details</label>
+                                        <div class="col-md-12 border-bottom p-0">
+                                            <textarea rows="3" class="form-control p-0 border-0" readonly>Een volle bak met enthousiasme om onze klanten zo goed mogelijk te helpen
+                                            </textarea>
+                                        </div>
+                                    </div>
+                                    <div class="form-group mb-4 fs-5">
+                                        <label class="col-md-12 p-0 fs-5">Details</label>
+                                        <div class="col-md-12 border-bottom p-0">
+                                            <textarea rows="3" class="form-control p-0 border-0" readonly>Een kritische blik om zowel RealConnections als onze klanten te helpen en beter te maken.</textarea>
+                                        </div>
+                                    </div>
+                                    <div class="form-group mb-4 fs-5">
+                                        <label class="col-md-12 p-0 fs-5">Details</label>
+                                        <div class="col-md-12 border-bottom p-0">
+                                            <textarea rows="3" class="form-control p-0 border-0" readonly>Liters zelfstandigheid om op eigen houtje aan de slag te kunnen</textarea>
+                                        </div>
+                                    </div>
+                                    <div class="form-group mb-4 fs-5">
+                                        <label class="col-md-12 p-0 fs-5">Details</label>
+                                        <div class="col-md-12 border-bottom p-0">
+                                            <textarea rows="3" class="form-control p-0 border-0" readonly>Een rijbewijs, want sommige klanten bereik je nu eenmaal niet makkelijk met het OV</textarea>
+                                        </div>
+                                    </div>
+                                    <div class="form-group mb-4 fs-5">
+                                        <label class="col-md-12 p-0 fs-5">Details</label>
+                                        <div class="col-md-12 border-bottom p-0">
+                                            <textarea rows="3" class="form-control p-0 border-0" readonly>Ervaring op het gebied van SaaS tools is een pré. Het liefst heb je al eens gewerkt met één van onze Big Four</textarea>
+                                        </div>
+                                    </div>
+                                    <div class="form-group mb-4">
+                                        <label class="col-md-12 p-0 fs-5">Large Heading</label>
+                                        <div class="col-md-12 border-bottom p-0">
+                                            <textarea row="3" class="form-control p-0 border-0" style="width: 100%; " rows="3">Check, ben jij dit?</textarea>
+                                        </div>
+                                    </div>
+                                    <div class="form-group mb-4 fs-5">
+                                        <label class="col-md-12 p-0 fs-5">Details</label>
+                                        <div class="col-md-12 border-bottom p-0">
+                                            <textarea rows="3" class="form-control p-0 border-0">8 gezellige collega’s met een gezonde dosis humor.</textarea>
+                                        </div>
+                                    </div>
+                                    <div class="form-group mb-4 fs-5">
+                                        <label class="col-md-12 p-0 fs-5">Details</label>
+                                        <div class="col-md-12 border-bottom p-0">
+                                            <textarea rows="3" class="form-control p-0 border-0">Veel vrijheid, qua indeling in je werk maar ook waar je werkt</textarea>
+                                        </div>
+                                    </div>
+                                    <div class="form-group mb-4 fs-5">
+                                        <label class="col-md-12 p-0 fs-5">Details</label>
+                                        <div class="col-md-12 border-bottom p-0">
+                                            <textarea rows="3" class="form-control p-0 border-0">Alles wat je nodig hebt om overal te kunnen werken (laptop, headset etc.)</textarea>
+                                        </div>
+                                    </div>
+                                    <div class="form-group mb-4 fs-5">
+                                        <label class="col-md-12 p-0 fs-5">Details</label>
+                                        <div class="col-md-12 border-bottom p-0">
+                                            <textarea rows="3" class="form-control p-0 border-0">4 dagen werken = 5 dagen salaris, of 5 dagen werken. Dat kan natuurlijk ook.</textarea>
+                                        </div>
+                                    </div>
+                                    <div class="form-group mb-4 fs-5">
+                                        <label class="col-md-12 p-0 fs-5">Details</label>
+                                        <div class="col-md-12 border-bottom p-0">
+                                            <textarea rows="3" class="form-control p-0 border-0">Uiteraard een mooi salaris met daarbij uitstekende secundaire arbeidsvoorwaarden - dat belooft elke vacature, maar bij ons is het echt zo.</textarea>
+                                        </div>
+                                    </div>
+                                    <div class="form-group mb-4 fs-5">
+                                        <label class="col-md-12 p-0 fs-5">Details</label>
+                                        <div class="col-md-12 border-bottom p-0">
+                                            <textarea rows="3" class="form-control p-0 border-0">Mogelijkheid om jezelf bij te scholen</textarea>
+                                        </div>
+                                    </div>
+                                    <div class="form-group mb-4">
+                                        <label class="col-md-12 p-0 fs-5">Large Heading</label>
+                                        <div class="col-md-12 border-bottom p-0">
+                                            <textarea row="3" class="form-control p-0 border-0" style="width: 100%; " rows="3" readonly>Solliciteer!</textarea>
+                                        </div>
+                                    </div>
+                                    <div class="form-group mb-4 fs-5">
+                                        <label class="col-md-12 p-0 fs-5">Details</label>
+                                        <div class="col-md-12 border-bottom p-0">
+                                            <textarea rows="3" class="form-control p-0 border-0" readonly>Ben je enthousiast en sta je te trappelen om aan de slag te gaan? Wacht dan geen seconde langer en solliciteer!</textarea>
+                                        </div>
+                                    </div>
+                                    <div class="form-group mb-4 fs-5">
+                                        <label class="col-md-12 p-0 fs-5">Details</label>
+                                        <div class="col-md-12 border-bottom p-0">
+                                            <textarea rows="3" class="form-control p-0 border-0" readonly>Hoe gaat dat in zijn werk? Stuur jouw CV naar ons op en stel je daarnaast aan ons voor. Dat mag via een brief, een video of een andere creatieve manier. Amaze us :)</textarea>
+                                        </div>
+                                    </div>
+                                    <div class="form-group mb-4 fs-5">
+                                        <label class="col-md-12 p-0 fs-5">Details</label>
+                                        <div class="col-md-12 border-bottom p-0">
+                                            <textarea rows="3" class="form-control p-0 border-0" readonly>Solliciteren kan via support@realconnections.nl t.a.v. Kay. Voor vragen kun je bellen naar 085-0653400.</textarea>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Column -->
+                </div>
+                <!-- Row -->
+                <!-- ============================================================== -->
+                <!-- End PAge Content -->
+                <!-- ============================================================== -->
+                <!-- ============================================================== -->
+                <!-- Right sidebar -->
+                <!-- ============================================================== -->
+                <!-- .right-sidebar -->
+                <!-- ============================================================== -->
+                <!-- End Right sidebar -->
+                <!-- ============================================================== -->
+            </div>
+            <!-- ============================================================== -->
+            <!-- End Container fluid  -->
+            <!-- ============================================================== -->
+        </div>
+        <!-- ============================================================== -->
+        <!-- End Page wrapper  -->
+        <!-- ============================================================== -->
+    </div>
+    <!-- ============================================================== -->
+    <!-- End Wrapper -->
+    <!-- ============================================================== -->
+    <!-- ============================================================== -->
+    <!-- All Jquery -->
+    <!-- ============================================================== -->
+    <script src="plugins/bower_components/jquery/dist/jquery.min.js"></script>
+    <!-- Bootstrap tether Core JavaScript -->
+    <script src="bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/app-style-switcher.js"></script>
+    <!--Wave Effects -->
+    <script src="js/waves.js"></script>
+    <!--Menu sidebar -->
+    <script src="js/sidebarmenu.js"></script>
+    <!--Custom JavaScript -->
+    <script src="js/custom.js"></script>
+</body>
+
+</html>

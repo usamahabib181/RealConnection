@@ -1,0 +1,983 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Tell the browser to be responsive to screen width -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="wrappixel, admin dashboard, html css dashboard, web dashboard, bootstrap 5 admin, bootstrap 5, css3 dashboard, bootstrap 5 dashboard, Ample lite admin bootstrap 5 dashboard, frontend, responsive bootstrap 5 admin template, Ample admin lite dashboard bootstrap 5 dashboard template">
+    <meta name="description" content="Ample Admin Lite is powerful and clean admin dashboard template, inpired from Bootstrap Framework">
+    <meta name="robots" content="noindex,nofollow">
+    <title>ReaLConnection</title>
+    <link rel="canonical" href="https://www.wrappixel.com/templates/ample-admin-lite/" />
+    <!-- Favicon icon -->
+    <link rel="icon" type="image/png" sizes="16x16" href="plugins/images/favicone.svg">
+    <!-- Custom CSS -->
+    <link href="css/style.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- ============================================================== -->
+    <!-- Preloader - style you can find in spinners.css -->
+    <!-- ============================================================== -->
+    <div class="preloader">
+        <div class="lds-ripple">
+            <div class="lds-pos"></div>
+            <div class="lds-pos"></div>
+        </div>
+    </div>
+    <!-- ============================================================== -->
+    <!-- Main wrapper - style you can find in pages.scss -->
+    <!-- ============================================================== -->
+    <div id="main-wrapper" data-layout="vertical" data-navbarbg="skin5" data-sidebartype="full" data-sidebar-position="absolute" data-header-position="absolute" data-boxed-layout="full">
+        <!-- ============================================================== -->
+        <!-- Topbar header - style you can find in pages.scss -->
+        <!-- ============================================================== -->
+        <header class="topbar" data-navbarbg="skin5">
+            <nav class="navbar top-navbar navbar-expand-md navbar-dark">
+                <div class="navbar-header" data-logobg="skin6">
+                    <!-- ============================================================== -->
+                    <!-- Logo -->
+                    <!-- ============================================================== -->
+                    <a class="navbar-brand" href="dashboard.html">
+                        <!-- Logo text -->
+                        <span class="logo-text">
+                            <!-- dark Logo text -->
+                            <img src="plugins/images/users/logo.png" alt="homepage" />
+                        </span>
+                    </a>
+                    <!-- ============================================================== -->
+                    <!-- End Logo -->
+                    <!-- ============================================================== -->
+                    <!-- ============================================================== -->
+                    <!-- toggle and nav items -->
+                    <!-- ============================================================== -->
+                    <a class="nav-toggler waves-effect waves-light text-dark d-block d-md-none" href="javascript:void(0)"><i class="ti-menu ti-close"></i></a>
+                </div>
+                <!-- ============================================================== -->
+                <!-- End Logo -->
+                <!-- ============================================================== -->
+                <div class="navbar-collapse collapse" id="navbarSupportedContent" data-navbarbg="skin5">
+                    <ul class="navbar-nav d-none d-md-block d-lg-none">
+                        <li class="nav-item">
+                            <a class="nav-toggler nav-link waves-effect waves-light text-white" href="javascript:void(0)"><i class="ti-menu ti-close"></i></a>
+                        </li>
+                    </ul>
+                    <!-- ============================================================== -->
+                    <!-- Right side toggle and nav items -->
+                    <!-- ============================================================== -->
+                    <ul class="navbar-nav ms-auto d-flex align-items-center">
+
+                        <!-- ============================================================== -->
+                        <!-- Search -->
+                        <!-- ============================================================== -->
+                        <li class=" in">
+                            <form role="search" class="app-search d-none d-md-block me-3">
+                                <input type="text" placeholder="Search..." class="form-control mt-0">
+                                <a href="" class="active">
+                                    <i class="fa fa-search"></i>
+                                </a>
+                            </form>
+                        </li>
+                        <!-- ============================================================== -->
+                        <!-- User profile and search -->
+                        <!-- ============================================================== -->
+                        <li>
+                            <a class="profile-pic" href="#">
+                                <img src="plugins/images/users/varun.jpg" alt="user-img" width="36" class="img-circle"><span class="text-white font-medium">Steave</span></a>
+                        </li>
+                        <!-- ============================================================== -->
+                        <!-- User profile and search -->
+                        <!-- ============================================================== -->
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <!-- ============================================================== -->
+        <!-- End Topbar header -->
+        <!-- ============================================================== -->
+        <!-- ============================================================== -->
+        <!-- Left Sidebar - style you can find in sidebar.scss  -->
+        <!-- ============================================================== -->
+        <aside class="left-sidebar" data-sidebarbg="skin6">
+            <!-- Sidebar scroll-->
+            <div class="scroll-sidebar">
+                <!-- Sidebar navigation-->
+                <nav class="sidebar-nav">
+                    <ul id="sidebarnav">
+                        <!-- User Profile-->
+                        <li class="sidebar-item pt-2">
+                            <a class="sidebar-link waves-effect waves-dark sidebar-link" href="dashboard.html" aria-expanded="false">
+                                <i class="far fa-clock" aria-hidden="true"></i>
+                                <span class="hide-menu">Dashboard</span>
+                            </a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a class="sidebar-link waves-effect waves-dark sidebar-link" href="home.html" aria-expanded="false">
+                                <i class="fa fa-user" aria-hidden="true"></i>
+                                <span class="hide-menu">HomePage</span>
+                            </a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a class="sidebar-link waves-effect waves-dark sidebar-link" href="home-page-menu.html" aria-expanded="false">
+                                <i class="far fa-calendar-minus"></i>
+                                <span class="hide-menu">Home page Menu</span>
+                            </a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a class="sidebar-link waves-effect waves-dark sidebar-link" href="over-ons.html" aria-expanded="false">
+                                <i class="fa fa-table" aria-hidden="true"></i>
+                                <span class="hide-menu">Over Ons</span>
+                            </a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a class="sidebar-link waves-effect waves-dark sidebar-link" href="vauture-single.html" aria-expanded="false">
+                                <i class="fab fa-yelp"></i>
+                                <span class="hide-menu">Vacuture Single</span>
+                            </a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a class="sidebar-link waves-effect waves-dark sidebar-link" href="piller-okla.html" aria-expanded="false">
+                                <i class="fab fa-periscope"></i>
+                                <span class="hide-menu">Piller page Okta</span>
+                            </a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a class="sidebar-link waves-effect waves-dark sidebar-link" href="piller-microsoft.html" aria-expanded="false">
+                                <i class="fab fa-windows"></i>
+                                <span class="hide-menu">Piller page Microsoft</span>
+                            </a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a class="sidebar-link waves-effect waves-dark sidebar-link" href="piller-zendesk.html" aria-expanded="false">
+                                <i class="fas fa-window-maximize"></i>
+                                <span class="hide-menu">Piller page Zendesk</span>
+                            </a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a class="sidebar-link waves-effect waves-dark sidebar-link" href="okla-sign-on.html" aria-expanded="false">
+                                <i class=" fas fa-diagnoses"></i>
+                                <span class="hide-menu">Single page Okta</span>
+                            </a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a class="sidebar-link waves-effect waves-dark sidebar-link" href="contact.html" aria-expanded="false">
+                                <i class="far fa-calendar-minus"></i>
+                                <span class="hide-menu">Contact</span>
+                            </a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a class="sidebar-link waves-effect waves-dark sidebar-link" href="footer.html" aria-expanded="false">
+                                <i class="far fa-calendar-minus"></i>
+                                <span class="hide-menu">Footer</span>
+                            </a>
+                        </li>
+
+                        <li class="sidebar-item">
+                            <a class="sidebar-link waves-effect waves-dark sidebar-link" href="Home-page-slider.html" aria-expanded="false">
+                                <i class="far fa-calendar-minus"></i>
+                                <span class="hide-menu">Home page Slider</span>
+                            </a>
+                        </li>
+                        <li class="text-center p-20 upgrade-btn">
+                            <a href="#" class="btn d-grid btn-danger text-white" target="_blank">
+                                Logout</a>
+                        </li>
+                    </ul>
+                </nav>
+                <!-- End Sidebar navigation -->
+            </div>
+            <!-- End Sidebar scroll-->
+        </aside>
+        <!-- ============================================================== -->
+        <!-- End Left Sidebar - style you can find in sidebar.scss  -->
+        <!-- ============================================================== -->
+        <!-- ============================================================== -->
+        <!-- Page wrapper  -->
+        <!-- ============================================================== -->
+        <div class="page-wrapper">
+            <!-- ============================================================== -->
+            <!-- Bread crumb and right sidebar toggle -->
+            <!-- ============================================================== -->
+            <div class="page-breadcrumb bg-white">
+                <div class="row align-items-center">
+                    <div class="col-lg-3 col-md-4 col-sm-4 col-xs-12">
+                        <h4 class="page-title">Profile page</h4>
+                    </div>
+                    <div class="col-lg-9 col-sm-8 col-md-8 col-xs-12">
+                        <div class="d-md-flex">
+                            <ol class="breadcrumb ms-auto">
+                                <li><a href="#" class="fw-normal">Dashboard</a></li>
+                            </ol>
+                            <a href="https://www.wrappixel.com/templates/ampleadmin/" target="_blank" class="btn btn-danger  d-none d-md-block pull-right ms-3 hidden-xs hidden-sm waves-effect waves-light text-white">Upgrade
+                                to Pro</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- /.col-lg-12 -->
+            </div>
+            <!-- ============================================================== -->
+            <!-- End Bread crumb and right sidebar toggle -->
+            <!-- ============================================================== -->
+            <!-- ============================================================== -->
+            <!-- Container fluid  -->
+            <!-- ============================================================== -->
+            <div class="container-fluid">
+                <!-- ============================================================== -->
+                <!-- Start Page Content -->
+                <!-- ============================================================== -->
+                <!-- Row -->
+                <div class="row">
+                    <!-- Column  Update-->
+                    <div class="col-lg-6 col-xlg-6 col-md-12">
+                        <h1>Update</h1>
+                        <div class="card">
+                            <div class="card-body">
+                                <form class="form-horizontal form-material">
+                                    <div class="form-group show-img border-bottom">
+                                        <label class="col-md-12 p-0 fs-5">Favicon</label>
+                                        <div class="image-upload-one my-1">
+                                            <div class="form-input">
+                                                <label for="file-ip-1">
+                                                    <img id="file-ip-1-preview" src="/img/svg/favicone.svg">
+                                                    <button type="button" class="imgRemove" onclick="myImgRemove(1)"></button>
+                                                  </label>
+                                                <input type="file" name="img_one" id="file-ip-1" accept="image/*" onchange="showPreview(event, 1);">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group mb-4">
+                                        <label class="col-md-12 p-0 fs-5">Page Title</label>
+                                        <div class="col-md-12 border-bottom p-0">
+                                            <textarea row="1" class="form-control p-0 border-0" style="width: 100%; resize: none;" rows="3">ReaL Connection</textarea>
+                                        </div>
+                                    </div>
+                                    <div class="form-group mb-4">
+                                        <label class="col-md-12 p-0 fs-5">Page Discription</label>
+                                        <div class="col-md-12 border-bottom p-0">
+                                            <textarea row="1" class="form-control p-0 border-0" style="width: 100%; resize: none;" rows="3">clients.websitespace.nl</textarea>
+                                        </div>
+                                    </div>
+                                    <div class="form-group show-img border-bottom">
+                                        <label class="col-md-12 p-0 fs-5">Main Banner Image(Small Desktop)</label>
+                                        <div class="image-upload-one my-1">
+                                            <div class="form-input">
+                                                <label for="file-ip-1">
+                                                    <img id="file-ip-1-preview" src="./img/banner1.png">
+                                                    <button type="button" class="imgRemove" onclick="myImgRemove(1)"></button>
+                                                  </label>
+                                                <input type="file" name="img_one" id="file-ip-1" accept="image/*" onchange="showPreview(event, 1);">
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group show-img border-bottom">
+                                        <label class="col-md-12 p-0 fs-5">Main Banner Image(Large Desktop)</label>
+                                        <div class="image-upload-one my-1">
+                                            <div class="form-input">
+                                                <label for="file-ip-1">
+                                                    <img id="file-ip-1-preview" src="./img/destop-index-1-sneak.png">
+                                                    <button type="button" class="imgRemove" onclick="myImgRemove(1)"></button>
+                                                  </label>
+                                                <input type="file" name="img_one" id="file-ip-1" accept="image/*" onchange="showPreview(event, 1);">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group show-img border-bottom">
+                                        <label class="col-md-12 p-0 fs-5">Main Banner Image(Mobile view )</label>
+                                        <div class="image-upload-one my-1">
+                                            <div class="form-input">
+                                                <label for="file-ip-1">
+                                                    <img id="file-ip-1-preview" src="./img/index-1-mbl.png">
+                                                    <button type="button" class="imgRemove" onclick="myImgRemove(1)"></button>
+                                                  </label>
+                                                <input type="file" name="img_one" id="file-ip-1" accept="image/*" onchange="showPreview(event, 1);">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group mb-4">
+                                        <label class="col-md-12 p-0 fs-5">Main Large Heading</label>
+                                        <div class="col-md-12 border-bottom p-0">
+                                            <textarea row="1" class="form-control p-0 border-0" style="width: 100%; resize: none;" rows="3">Real Connections</textarea>
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group mb-4">
+                                        <label class="col-md-12 p-0 fs-5">Discription</label>
+                                        <div class="col-md-12 border-bottom p-0">
+                                            <textarea row="3" class="form-control p-0 border-0" style="width: 100%;  resize: none;" rows="3">Software voor je laten werken? Regelen wij voor je. We helpen nu en denken met je mee over de toekomst. We got you!</textarea>
+                                        </div>
+                                    </div>
+                                    <div class="form-group mb-4">
+                                        <label class="col-md-12 p-0 fs-5">Button</label>
+                                        <div class="col-md-12 border-bottom p-0">
+                                            <textarea row="3" class="form-control p-0 border-0" style="width: 100%;  resize: none;" rows="3">Neem Contact Up</textarea>
+                                        </div>
+                                    </div>
+                                    <div class="form-group mb-4 fs-5">
+                                        <label class="col-md-12 p-0">Small Heading</label>
+                                        <div class="col-md-12 border-bottom p-0">
+                                            <textarea rows="3" class="form-control p-0 border-0" style="resize: none;">WE GOT YOU</textarea>
+                                        </div>
+                                    </div>
+                                    <div class="form-group mb-4 fs-5">
+                                        <label class="col-md-12 p-0">Large heading</label>
+                                        <div class="col-md-12 border-bottom p-0">
+                                            <textarea rows="3" class="form-control p-0 border-0" style="resize: none;">Over RealConnections</textarea>
+                                        </div>
+                                    </div>
+                                    <div class="form-group mb-4 fs-5">
+                                        <label class="col-md-12 p-0">Details</label>
+                                        <div class="col-md-12 border-bottom p-0">
+                                            <textarea rows="3" class="form-control p-0 border-0" style="resize: none;">Wij zijn de partner die het nèt even anders doet. Persoonlijk. Nee je bent geen nummertje, ook niet als je een support ticket inschiet. Wij kennen jou en denken met je mee. Sterker nog, wij zijn jouw interne IT afdeling, maar dan buiten de deur. En de deur staat altijd open</textarea>
+                                        </div>
+                                    </div>
+                                    <div class="form-group mb-4 fs-5">
+                                        <label class="col-md-12 p-0 fs-5">Deatails heading</label>
+                                        <div class="col-md-12 border-bottom p-0">
+                                            <textarea rows="3" class="form-control p-0 border-0" style="resize: none;">Wij maken software toegankelijk. Want software is er om je te helpen, niet om het ons moeilijk te maken. Maar dan moet je wel weten hoe het werkt. Yes, RealConnections.</textarea>
+                                        </div>
+                                    </div>
+                                    <div class="form-group mb-4 fs-5">
+                                        <label class="col-md-12 p-0 fs-5">Bold heading</label>
+                                        <div class="col-md-12 border-bottom p-0">
+                                            <textarea rows="3" class="form-control p-0 border-0" style="resize: none;">We got you.</textarea>
+                                        </div>
+                                    </div>
+                                    <div class="form-group mb-4">
+                                        <label class="col-md-12 p-0 fs-5">Button text</label>
+                                        <div class="col-md-12 border-bottom p-0">
+                                            <textarea row="3" class="form-control p-0 border-0" style="width: 100%;  resize: none;" rows="3">Less meer</textarea>
+                                        </div>
+                                    </div>
+                                    <div class="form-group mb-4 fs-5">
+                                        <label class="col-md-12 p-0 fs-5">Large heading</label>
+                                        <div class="col-md-12 border-bottom p-0">
+                                            <textarea rows="3" class="form-control p-0 border-0" style="resize: none;">Onze expertises</textarea>
+                                        </div>
+                                    </div>
+                                    <div class="form-group mb-4">
+                                        <label class="col-md-12 p-0 fs-5">Card Title</label>
+                                        <div class="col-md-12 border-bottom p-0">
+                                            <textarea row="3" class="form-control p-0 border-0" style="width: 100%;  resize: none;" rows="3">Okta</textarea>
+                                        </div>
+                                    </div>
+                                    <div class="form-group show-img border-bottom">
+                                        <label class="col-md-12 p-0 fs-5">Card Logo Image</label>
+                                        <div class="image-upload-one my-1">
+                                            <div class="form-input">
+                                                <label for="file-ip-1">
+                                                    <img id="file-ip-1-preview" src="./img/svg/Homepage.svg">
+                                                    <button type="button" class="imgRemove" onclick="myImgRemove(1)"></button>
+                                                  </label>
+                                                <input type="file" name="img_one" id="file-ip-1" accept="image/*" onchange="showPreview(event, 1);">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group mb-4">
+                                        <label class="col-md-12 p-0 fs-5">Card Details</label>
+                                        <div class="col-md-12 border-bottom p-0">
+                                            <textarea row="3" class="form-control p-0 border-0" style="width: 100%;  resize: none;" rows="3">Het antwoord op je beveiligingsvraagstuk en efficiënt werken: alles binnen een beveiligde omgeving. Automatisering van processen en dus slimmer werken. 
+                                             </textarea>
+                                        </div>
+                                    </div>
+                                    <div class="form-group mb-4">
+                                        <label class="col-md-12 p-0 fs-5">Button text</label>
+                                        <div class="col-md-12 border-bottom p-0">
+                                            <textarea row="3" class="form-control p-0 border-0" style="width: 100%;  resize: none;" rows="3">Less meer</textarea>
+                                        </div>
+                                    </div>
+                                    <div class="form-group mb-4">
+                                        <label class="col-md-12 p-0 fs-5">Card Title</label>
+                                        <div class="col-md-12 border-bottom p-0">
+                                            <textarea row="3" class="form-control p-0 border-0" style="width: 100%;  resize: none;" rows="3">Zendesk</textarea>
+                                        </div>
+                                    </div>
+                                    <div class="form-group show-img border-bottom">
+                                        <label class="col-md-12 p-0 fs-5">Card Logo Image</label>
+                                        <div class="image-upload-two my-1">
+                                            <div class="form-input">
+                                                <label for="file-ip-2">
+                                                    <img id="file-ip-1-preview" src="./img/svg/okkta.svg">
+                                                    <button type="button" class="imgRemove" onclick="myImgRemove(2)"></button>
+                                                  </label>
+                                                <input type="file" name="img_two" id="file-ip-2" accept="image/*" onchange="showPreview(event, 2);">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group mb-4">
+                                        <label class="col-md-12 p-0 fs-5">Card Details</label>
+                                        <div class="col-md-12 border-bottom p-0">
+                                            <textarea row="3" class="form-control p-0 border-0" style="width: 100%;  resize: none;" rows="3">Eenvoudige klantcommunicatie? Zendesk. Het geeft je tijd, rust, overzicht en inzicht. De tool voor alle externe communicatie: van artikelen tot klantenservice en FAQ’s.
+                                                </textarea>
+                                        </div>
+                                    </div>
+                                    <div class="form-group mb-4">
+                                        <label class="col-md-12 p-0 fs-5">Button text</label>
+                                        <div class="col-md-12 border-bottom p-0">
+                                            <textarea row="3" class="form-control p-0 border-0" style="width: 100%;  resize: none;" rows="3">Less meer</textarea>
+                                        </div>
+                                    </div>
+                                    <div class="form-group mb-4">
+                                        <label class="col-md-12 p-0 fs-5">Card Title</label>
+                                        <div class="col-md-12 border-bottom p-0">
+                                            <textarea row="3" class="form-control p-0 border-0" style="width: 100%;  resize: none;" rows="3">Microsoft 365</textarea>
+                                        </div>
+                                    </div>
+                                    <div class="form-group show-img border-bottom">
+                                        <label class="col-md-12 p-0 fs-5">Card Logo Image</label>
+                                        <div class="image-upload-three my-1">
+                                            <div class="center">
+                                                <div class="form-input">
+                                                    <label for="file-ip-3">
+                                                        <img id="file-ip-1-preview" src="./img/svg/microsoft.svg">
+                                                    <button type="button" class="imgRemove" onclick="myImgRemove(3)"></button>
+                                                  </label>
+                                                    <input type="file" name="img_three" id="file-ip-3" accept="image/*" onchange="showPreview(event, 3);">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group mb-4">
+                                        <label class="col-md-12 p-0 fs-5">Card Details</label>
+                                        <div class="col-md-12 border-bottom p-0">
+                                            <textarea row="3" class="form-control p-0 border-0" style="width: 100%;  resize: none;" rows="3">Neem afscheid van verschillende losse programma’s. Het kan veel makkelijker. Microsoft is zoveel meer dan Outlook en Word. In de cloud werk je altijd en overal.</textarea>
+                                        </div>
+                                    </div>
+                                    <div class="form-group mb-4">
+                                        <label class="col-md-12 p-0 fs-5">Button text</label>
+                                        <div class="col-md-12 border-bottom p-0">
+                                            <textarea row="3" class="form-control p-0 border-0" style="width: 100%;  resize: none;" rows="3">Less meer</textarea>
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group mb-4">
+                                        <label class="col-md-12 p-0 fs-5">Large Heading</label>
+                                        <div class="col-md-12 border-bottom p-0">
+                                            <textarea row="3" class="form-control p-0 border-0" style="width: 100%;  resize: none;" rows="3">Onze klanten</textarea>
+                                        </div>
+                                    </div>
+                                    <div class="form-group show-img border-bottom">
+                                        <label class="col-md-12 p-0 fs-5">Partner</label>
+                                        <div class="image-upload-ten my-1">
+                                            <div class="center">
+                                                <div class="form-input">
+                                                    <label for="file-ip-10">
+                                                      <img id="file-ip-10-preview" src="../img/upload-23.png">
+                                                      <button type="button" class="imgRemove" onclick="myImgRemove(10)"></button>
+                                                    </label>
+                                                    <input type="file" name="img_ten" id="file-ip-10" accept="image/*" onchange="showPreview(event, 10);">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group show-img border-bottom">
+                                        <label class="col-md-12 p-0 fs-5">Partner</label>
+                                        <div class="image-upload-ele my-1">
+                                            <div class="center">
+                                                <div class="form-input">
+                                                    <label for="file-ip-11">
+                                                      <img id="file-ip-11-preview" src="../img/upload-23.png">
+                                                      <button type="button" class="imgRemove" onclick="myImgRemove(11)"></button>
+                                                    </label>
+                                                    <input type="file" name="img_ele" id="file-ip-11" accept="image/*" onchange="showPreview(event, 11);">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group show-img border-bottom">
+                                        <label class="col-md-12 p-0 fs-5">Partner</label>
+                                        <div class="image-upload-tew my-1">
+                                            <div class="center">
+                                                <div class="form-input">
+                                                    <label for="file-ip-12">
+                                                      <img id="file-ip-12-preview" src="../img/upload-23.png">
+                                                      <button type="button" class="imgRemove" onclick="myImgRemove(12)"></button>
+                                                    </label>
+                                                    <input type="file" name="img_tew" id="file-ip-12" accept="image/*" onchange="showPreview(event, 12);">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group show-img border-bottom">
+                                        <label class="col-md-12 p-0 fs-5">Partner</label>
+                                        <div class="image-upload-thir my-1">
+                                            <div class="center">
+                                                <div class="form-input">
+                                                    <label for="file-ip-13">
+                                                      <img id="file-ip-13-preview" src="../img/upload-23.png">
+                                                      <button type="button" class="imgRemove" onclick="myImgRemove(13)"></button>
+                                                    </label>
+                                                    <input type="file" name="img_thir" id="file-ip-13" accept="image/*" onchange="showPreview(event, 13);">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group show-img border-bottom">
+                                        <label class="col-md-12 p-0 fs-5">Partner</label>
+                                        <div class="image-upload-thir my-1">
+                                            <div class="center">
+                                                <div class="form-input">
+                                                    <label for="file-ip-14">
+                                                      <img id="file-ip-14-preview" src="../img/upload-23.png">
+                                                      <button type="button" class="imgRemove" onclick="myImgRemove(14)"></button>
+                                                    </label>
+                                                    <input type="file" name="img_fourth" id="file-ip-14" accept="image/*" onchange="showPreview(event, 14);">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group show-img border-bottom">
+                                        <label class="col-md-12 p-0 fs-5">Partner</label>
+                                        <div class="image-upload-fif my-1">
+                                            <div class="center">
+                                                <div class="form-input">
+                                                    <label for="file-ip-15">
+                                                      <img id="file-ip-15-preview" src="../img/upload-23.png">
+                                                      <button type="button" class="imgRemove" onclick="myImgRemove(15)"></button>
+                                                    </label>
+                                                    <input type="file" name="img_fif" id="file-ip-15" accept="image/*" onchange="showPreview(event, 15);">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group mb-4 fs-5">
+                                        <label class="col-md-12 p-0 fs-5">Quatation</label>
+                                        <div class="col-md-12 border-bottom p-0">
+                                            <textarea rows="3" class="form-control p-0 border-0" style="resize: none;">Dankzij RealConnections werkt iedereen in onze organisatie in dezelfde omgeving. Zij hebben ervoor gezorgd dat processen zijn geautomatiseerd en dat levert veel op! Naast tijd en geld, ook gemak.</textarea>
+                                        </div>
+                                    </div>
+                                    <div class="form-group mb-4 fs-5">
+                                        <label class="col-md-12 p-0 fs-5">Writer</label>
+                                        <div class="col-md-12 border-bottom p-0">
+                                            <textarea rows="3" class="form-control p-0 border-0" style="resize: none;">- John Doe - Mollie</textarea>
+                                        </div>
+                                    </div>
+                                    <div class="form-group mb-4">
+                                        <label class="col-md-12 p-0 fs-5">Large Heading</label>
+                                        <div class="col-md-12 border-bottom p-0">
+                                            <textarea row="3" class="form-control p-0 border-0" style="width: 100%;  resize: none;" rows="3">We Got You
+                                            </textarea>
+                                        </div>
+                                    </div>
+                                    <div class="form-group mb-4 fs-5">
+                                        <label class="col-md-12 p-0 fs-5">Details</label>
+                                        <div class="col-md-12 border-bottom p-0">
+                                            <textarea rows="3" class="form-control p-0 border-0" style="resize: none;">Wij maken software toegankelijk. Want software is er om je te helpen, niet om het ons moeilijk te maken. Maar dan moet je wel weten hoe het werkt. Yes, RealConnections. 
+                                            </textarea>
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group mb-4 fs-5">
+                                        <label class="col-md-12 p-0 fs-5">Smal Heading</label>
+                                        <div class="col-md-12 border-bottom p-0">
+                                            <textarea rows="3" class="form-control p-0 border-0" style="resize: none;" readonly>We got you. 
+                                            </textarea>
+                                        </div>
+                                    </div>
+                                    <div class="form-group mb-4 fs-5">
+                                        <label class="col-md-12 p-0 fs-5">Form Heading</label>
+                                        <div class="col-md-12 border-bottom p-0">
+                                            <textarea rows="3" class="form-control p-0 border-0" style="resize: none;" readonly>Contact
+                                            </textarea>
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group mb-4 fs-5">
+                                        <label class="col-md-12 p-0 fs-5">User Name Heading</label>
+                                        <div class="col-md-12 border-bottom p-0">
+                                            <textarea rows="3" class="form-control p-0 border-0" style="resize: none;" readonly>User Name
+                                            </textarea>
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group mb-4 fs-5">
+                                        <label class="col-md-12 p-0 fs-5">Email Heading</label>
+                                        <div class="col-md-12 border-bottom p-0">
+                                            <textarea rows="3" class="form-control p-0 border-0" style="resize: none;" readonly>error@email.com
+                                            </textarea>
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group mb-4 fs-5">
+                                        <label class="col-md-12 p-0 fs-5">Phone Number Heading</label>
+                                        <div class="col-md-12 border-bottom p-0">
+                                            <textarea rows="3" class="form-control p-0 border-0" style="resize: none;" readonly>Telefoomnumber
+                                            </textarea>
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group mb-4 fs-5">
+                                        <label class="col-md-12 p-0 fs-5">Massage Heading</label>
+                                        <div class="col-md-12 border-bottom p-0">
+                                            <textarea rows="3" class="form-control p-0 border-0" style="resize: none;" readonly>send Massage
+                                            </textarea>
+                                        </div>
+                                    </div>
+                                    <div class="form-group mb-4 fs-5">
+                                        <label class="col-md-12 p-0 fs-5">Btn Text</label>
+                                        <div class="col-md-12 border-bottom p-0">
+                                            <textarea rows="3" class="form-control p-0 border-0" style="resize: none;" readonly>Verzand
+                                            </textarea>
+                                        </div>
+                                    </div>
+                                    <div class="form-group mb-4">
+                                        <div class="col-sm-12">
+                                            <button class="btn btn-success">Save Changes</button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Column -->
+                    <!-- Column Preview-->
+                    <div class="col-lg-6 col-xlg-6 col-md-12">
+                        <h1>Preview</h1>
+                        <div class="card">
+                            <div class="card-body">
+                                <form class="form-horizontal form-material">
+                                    <div class="form-group show-img border-bottom">
+                                        <label class="col-md-12 p-0 fs-5">Favicon</label>
+                                        <figure class="fig-img">
+                                            <img src="/img/svg/favicone.svg" alt="">
+                                        </figure>
+                                    </div>
+                                    <div class="form-group mb-4">
+                                        <label class="col-md-12 p-0 fs-5">Page Title</label>
+                                        <div class="col-md-12 border-bottom p-0">
+                                            <textarea row="1" class="form-control p-0 border-0" style="width: 100%; resize: none;" rows="3" readonly>ReaL Connection</textarea>
+                                        </div>
+                                    </div>
+                                    <div class="form-group mb-4">
+                                        <label class="col-md-12 p-0 fs-5">Page  Discription</label>
+                                        <div class="col-md-12 border-bottom p-0">
+                                            <textarea row="1" class="form-control p-0 border-0" style="width: 100%; resize: none;" rows="3" readonly>clients.websitespace.nl</textarea>
+                                        </div>
+                                    </div>
+                                    <div class="form-group show-img border-bottom">
+                                        <label class="col-md-12 p-0 fs-5">Main Banner Image(Small Desktop)</label>
+                                        <figure class="fig-img">
+                                            <img src="./img/banner1.png" alt="">
+                                        </figure>
+                                    </div>
+                                    <div class="form-group show-img border-bottom">
+                                        <label class="col-md-12 p-0 fs-5">Main Banner Image(Large Desktop)</label>
+                                        <figure class="fig-img">
+                                            <img src="./img/destop-index-1-sneak.png" alt="">
+                                        </figure>
+                                    </div>
+                                    <div class="form-group show-img border-bottom">
+                                        <label class="col-md-12 p-0 fs-5">Main Banner Image(Mobile view )</label>
+                                        <figure class="fig-img">
+                                            <img src="./img/index-1-mbl.png" alt="">
+                                        </figure>
+                                    </div>
+
+                                    <div class="form-group mb-4">
+                                        <label class="col-md-12 p-0 fs-5">Main Large Heading</label>
+                                        <div class="col-md-12 border-bottom p-0">
+                                            <textarea row="1" class="form-control p-0 border-0" style="width: 100%; resize: none;" rows="3" readonly>Real Connections</textarea>
+                                        </div>
+                                    </div>
+                                    <div class="form-group mb-4">
+                                        <label class="col-md-12 p-0 fs-5">Discription</label>
+                                        <div class="col-md-12 border-bottom p-0">
+                                            <textarea row="3" class="form-control p-0 border-0" style="width: 100%;  resize: none;" rows="3" readonly>Software voor je laten werken? Regelen wij voor je. We helpen nu en denken met je mee over de toekomst. We got you!</textarea>
+                                        </div>
+                                    </div>
+                                    <div class="form-group mb-4">
+                                        <label class="col-md-12 p-0 fs-5">Button</label>
+                                        <div class="col-md-12 border-bottom p-0">
+                                            <textarea row="3" class="form-control p-0 border-0" style="width: 100%;  resize: none;" rows="3" readonly>Neem Contact Up</textarea>
+                                        </div>
+                                    </div>
+                                    <div class="form-group mb-4 fs-5">
+                                        <label class="col-md-12 p-0">Small Heading</label>
+                                        <div class="col-md-12 border-bottom p-0">
+                                            <textarea rows="3" class="form-control p-0 border-0" style="resize: none;" readonly>WE GOT YOU</textarea>
+                                        </div>
+                                    </div>
+                                    <div class="form-group mb-4 fs-5">
+                                        <label class="col-md-12 p-0">Large heading</label>
+                                        <div class="col-md-12 border-bottom p-0">
+                                            <textarea rows="3" class="form-control p-0 border-0" style="resize: none;" readonly>Over RealConnections</textarea>
+                                        </div>
+                                    </div>
+                                    <div class="form-group mb-4 fs-5">
+                                        <label class="col-md-12 p-0">Details</label>
+                                        <div class="col-md-12 border-bottom p-0">
+                                            <textarea rows="3" class="form-control p-0 border-0" style="resize: none;" readonly>Wij zijn de partner die het nèt even anders doet. Persoonlijk. Nee je bent geen nummertje, ook niet als je een support ticket inschiet. Wij kennen jou en denken met je mee. Sterker nog, wij zijn jouw interne IT afdeling, maar dan buiten de deur. En de deur staat altijd open</textarea>
+                                        </div>
+                                    </div>
+                                    <div class="form-group mb-4 fs-5">
+                                        <label class="col-md-12 p-0 fs-5">Deatails heading</label>
+                                        <div class="col-md-12 border-bottom p-0">
+                                            <textarea rows="3" class="form-control p-0 border-0" style="resize: none;" readonly>Wij maken software toegankelijk. Want software is er om je te helpen, niet om het ons moeilijk te maken. Maar dan moet je wel weten hoe het werkt. Yes, RealConnections.</textarea>
+                                        </div>
+                                    </div>
+                                    <div class="form-group mb-4 fs-5">
+                                        <label class="col-md-12 p-0 fs-5">Bold heading</label>
+                                        <div class="col-md-12 border-bottom p-0">
+                                            <textarea rows="3" class="form-control p-0 border-0" style="resize: none;" readonly>We got you.</textarea>
+                                        </div>
+                                    </div>
+                                    <div class="form-group mb-4">
+                                        <label class="col-md-12 p-0 fs-5">Button text</label>
+                                        <div class="col-md-12 border-bottom p-0">
+                                            <textarea row="3" class="form-control p-0 border-0" style="width: 100%;  resize: none;" rows="3" readonly>Less meer</textarea>
+                                        </div>
+                                    </div>
+                                    <div class="form-group mb-4 fs-5">
+                                        <label class="col-md-12 p-0 fs-5">Large heading</label>
+                                        <div class="col-md-12 border-bottom p-0">
+                                            <textarea rows="3" class="form-control p-0 border-0" style="resize: none;" readonly>Onze expertises</textarea>
+                                        </div>
+                                    </div>
+                                    <div class="form-group mb-4">
+                                        <label class="col-md-12 p-0 fs-5">Card Title</label>
+                                        <div class="col-md-12 border-bottom p-0">
+                                            <textarea row="3" class="form-control p-0 border-0" style="width: 100%;  resize: none;" rows="3" readonly>Okta</textarea>
+                                        </div>
+                                    </div>
+                                    <div class="form-group show-img border-bottom">
+                                        <label class="col-md-12 p-0 fs-5">Card Logo Image</label>
+                                        <figure class="fig-img">
+                                            <img src="./img/svg/Homepage.svg" alt="">
+                                        </figure>
+                                    </div>
+                                    <div class="form-group mb-4">
+                                        <label class="col-md-12 p-0 fs-5">Card Details</label>
+                                        <div class="col-md-12 border-bottom p-0">
+                                            <textarea row="3" class="form-control p-0 border-0" style="width: 100%;  resize: none;" rows="3" readonly>Het antwoord op je beveiligingsvraagstuk en efficiënt werken: alles binnen een beveiligde omgeving. Automatisering van processen en dus slimmer werken. </textarea>
+                                        </div>
+                                    </div>
+                                    <div class="form-group mb-4">
+                                        <label class="col-md-12 p-0 fs-5">Button text</label>
+                                        <div class="col-md-12 border-bottom p-0">
+                                            <textarea row="3" class="form-control p-0 border-0" style="width: 100%;  resize: none;" rows="3" readonly>Less meer</textarea>
+                                        </div>
+                                    </div>
+                                    <div class="form-group mb-4">
+                                        <label class="col-md-12 p-0 fs-5">Card Title</label>
+                                        <div class="col-md-12 border-bottom p-0">
+                                            <textarea row="3" class="form-control p-0 border-0" style="width: 100%;  resize: none;" rows="3" readonly>Zendesk</textarea>
+                                        </div>
+                                    </div>
+                                    <div class="form-group show-img border-bottom">
+                                        <label class="col-md-12 p-0 fs-5">Card Logo Image</label>
+                                        <figure class="fig-img">
+                                            <img src="./img/svg/okkta.svg" alt="">
+                                        </figure>
+                                    </div>
+                                    <div class="form-group mb-4">
+                                        <label class="col-md-12 p-0 fs-5">Card Details</label>
+                                        <div class="col-md-12 border-bottom p-0">
+                                            <textarea row="3" class="form-control p-0 border-0" style="width: 100%; resize: none;" rows="3" readonly>Eenvoudige klantcommunicatie? Zendesk. Het geeft je tijd, rust, overzicht en inzicht. De tool voor alle externe communicatie: van artikelen tot klantenservice en FAQ’s.</textarea>
+                                        </div>
+                                    </div>
+                                    <div class="form-group mb-4">
+                                        <label class="col-md-12 p-0 fs-5">Button text</label>
+                                        <div class="col-md-12 border-bottom p-0">
+                                            <textarea row="3" class="form-control p-0 border-0" style="width: 100%; resize: none;" rows="3" readonly>Less meer</textarea>
+                                        </div>
+                                    </div>
+                                    <div class="form-group mb-4">
+                                        <label class="col-md-12 p-0 fs-5">Card Title</label>
+                                        <div class="col-md-12 border-bottom p-0">
+                                            <textarea row="3" class="form-control p-0 border-0" style="width: 100%; resize: none;" rows="3" readonly>Microsoft 365</textarea>
+                                        </div>
+                                    </div>
+                                    <div class="form-group show-img border-bottom">
+                                        <label class="col-md-12 p-0 fs-5">Card Logo Image</label>
+                                        <figure class="fig-img">
+                                            <img src="./img/svg/microsoft.svg" alt="">
+                                        </figure>
+                                    </div>
+                                    <div class="form-group mb-4">
+                                        <label class="col-md-12 p-0 fs-5">Card Details</label>
+                                        <div class="col-md-12 border-bottom p-0">
+                                            <textarea row="3" class="form-control p-0 border-0" style="width: 100%; resize: none;" rows="3" readonly>Neem afscheid van verschillende losse programma’s. Het kan veel makkelijker. Microsoft is zoveel meer dan Outlook en Word. In de cloud werk je altijd en overal.</textarea>
+                                        </div>
+                                    </div>
+                                    <div class="form-group mb-4">
+                                        <label class="col-md-12 p-0 fs-5">Button text</label>
+                                        <div class="col-md-12 border-bottom p-0">
+                                            <textarea row="3" class="form-control p-0 border-0" style="width: 100%; resize: none;" rows="3" readonly>Less meer</textarea>
+                                        </div>
+                                    </div>
+                                    <!--  -->
+                                    <div class="form-group mb-4">
+                                        <label class="col-md-12 p-0 fs-5">Large Heading</label>
+                                        <div class="col-md-12 border-bottom p-0">
+                                            <textarea row="3" class="form-control p-0 border-0" style="width: 100%; resize: none;" rows="3" readonly>Onze klanten</textarea>
+                                        </div>
+                                    </div>
+                                    <div class="form-group show-img border-bottom">
+                                        <label class="col-md-12 p-0 fs-5">Partner</label>
+                                        <figure class="fig-img">
+                                            <img src="../img/banner/Intersection 9.png" style="object-fit: contain;" alt="">
+                                        </figure>
+                                    </div>
+                                    <div class="form-group show-img border-bottom">
+                                        <label class="col-md-12 p-0 fs-5">Partner</label>
+                                        <figure class="fig-img">
+                                            <img src="../img/banner/Intersection 11.png" style="object-fit: contain;" alt="">
+                                        </figure>
+                                    </div>
+                                    <div class="form-group show-img border-bottom">
+                                        <label class="col-md-12 p-0 fs-5">Partner</label>
+                                        <figure class="fig-img">
+                                            <img src="../img/banner/Intersection 2.png" style="object-fit: contain;" alt="">
+                                        </figure>
+                                    </div>
+                                    <div class="form-group show-img border-bottom">
+                                        <label class="col-md-12 p-0 fs-5">Partner</label>
+                                        <figure class="fig-img">
+                                            <img src="../img/banner/Intersection 3.png" style="object-fit: contain;" alt="">
+                                        </figure>
+                                    </div>
+                                    <div class="form-group show-img border-bottom">
+                                        <label class="col-md-12 p-0 fs-5">Partner</label>
+                                        <figure class="fig-img">
+                                            <img src="../img/banner/Intersection 4.png" style="object-fit: contain;" alt="">
+                                        </figure>
+                                    </div>
+                                    <div class="form-group show-img border-bottom">
+                                        <label class="col-md-12 p-0 fs-5">Partner</label>
+                                        <figure class="fig-img">
+                                            <img src="../img/banner/Intersection 5.png" style="object-fit: contain;" alt="">
+                                        </figure>
+                                    </div>
+                                    <div class="form-group mb-4 fs-5">
+                                        <label class="col-md-12 p-0 fs-5">Quatation</label>
+                                        <div class="col-md-12 border-bottom p-0">
+                                            <textarea rows="3" class="form-control p-0 border-0" style="resize: none;" readonly>Dankzij RealConnections werkt iedereen in onze organisatie in dezelfde omgeving. Zij hebben ervoor gezorgd dat processen zijn geautomatiseerd en dat levert veel op! Naast tijd en geld, ook gemak.</textarea>
+                                        </div>
+                                    </div>
+                                    <div class="form-group mb-4 fs-5">
+                                        <label class="col-md-12 p-0 fs-5">Writer</label>
+                                        <div class="col-md-12 border-bottom p-0">
+                                            <textarea rows="3" class="form-control p-0 border-0" style="resize: none;" readonly>- John Doe - Mollie</textarea>
+                                        </div>
+                                    </div>
+                                    <div class="form-group mb-4">
+                                        <label class="col-md-12 p-0 fs-5">Large Heading</label>
+                                        <div class="col-md-12 border-bottom p-0">
+                                            <textarea row="3" class="form-control p-0 border-0" style="width: 100%; resize: none;" rows="3" readonly>We Got You</textarea>
+                                        </div>
+                                    </div>
+                                    <div class="form-group mb-4 fs-5">
+                                        <label class="col-md-12 p-0 fs-5">Details</label>
+                                        <div class="col-md-12 border-bottom p-0">
+                                            <textarea rows="3" class="form-control p-0 border-0" style="resize: none;" readonly>Wij maken software toegankelijk. Want software is er om je te helpen, niet om het ons moeilijk te maken. Maar dan moet je wel weten hoe het werkt. Yes, RealConnections. 
+                                            </textarea>
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group mb-4 fs-5">
+                                        <label class="col-md-12 p-0 fs-5">Smal Heading</label>
+                                        <div class="col-md-12 border-bottom p-0">
+                                            <textarea rows="3" class="form-control p-0 border-0" style="resize: none;" readonly>We got you. 
+                                            </textarea>
+                                        </div>
+                                    </div>
+                                    <div class="form-group mb-4 fs-5">
+                                        <label class="col-md-12 p-0 fs-5">Form Heading</label>
+                                        <div class="col-md-12 border-bottom p-0">
+                                            <textarea rows="3" class="form-control p-0 border-0" style="resize: none;" readonly>Contact
+                                            </textarea>
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group mb-4 fs-5">
+                                        <label class="col-md-12 p-0 fs-5">User Name Heading</label>
+                                        <div class="col-md-12 border-bottom p-0">
+                                            <textarea rows="3" class="form-control p-0 border-0" style="resize: none;" readonly>User Name
+                                            </textarea>
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group mb-4 fs-5">
+                                        <label class="col-md-12 p-0 fs-5">Email Heading</label>
+                                        <div class="col-md-12 border-bottom p-0">
+                                            <textarea rows="3" class="form-control p-0 border-0" style="resize: none;" readonly>error@email.com
+                                            </textarea>
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group mb-4 fs-5">
+                                        <label class="col-md-12 p-0 fs-5">Phone Number Heading</label>
+                                        <div class="col-md-12 border-bottom p-0">
+                                            <textarea rows="3" class="form-control p-0 border-0" style="resize: none;" readonly>Telefoomnumber
+                                            </textarea>
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group mb-4 fs-5">
+                                        <label class="col-md-12 p-0 fs-5">Massage Heading</label>
+                                        <div class="col-md-12 border-bottom p-0">
+                                            <textarea rows="3" class="form-control p-0 border-0" style="resize: none;" readonly>send Massage
+                                            </textarea>
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group mb-4 fs-5">
+                                        <label class="col-md-12 p-0 fs-5">Btn Text</label>
+                                        <div class="col-md-12 border-bottom p-0">
+                                            <textarea rows="3" class="form-control p-0 border-0" style="resize: none;" readonly>Verzand
+                                            </textarea>
+                                        </div>
+                                    </div>
+
+                                    <!-- Column -->
+                            </div>
+                            <!-- Row -->
+                            <!-- ============================================================== -->
+                            <!-- End PAge Content -->
+                            <!-- ============================================================== -->
+                            <!-- ============================================================== -->
+                            <!-- Right sidebar -->
+                            <!-- ============================================================== -->
+                            <!-- .right-sidebar -->
+                            <!-- ============================================================== -->
+                            <!-- End Right sidebar -->
+                            <!-- ============================================================== -->
+                        </div>
+                        <!-- ============================================================== -->
+                        <!-- End Container fluid  -->
+                        <!-- ============================================================== -->
+                        <!-- ============================================================== -->
+                        <!-- footer -->
+                        <!-- ============================================================== -->
+
+                        <!-- ============================================================== -->
+                        <!-- End footer -->
+                        <!-- ============================================================== -->
+                    </div>
+                    <!-- ============================================================== -->
+                    <!-- End Page wrapper  -->
+                    <!-- ============================================================== -->
+                </div>
+                <!-- ============================================================== -->
+                <!-- End Wrapper -->
+                <!-- ============================================================== -->
+                <!-- ============================================================== -->
+                <!-- All Jquery -->
+                <!-- ============================================================== -->
+                <script src="plugins/bower_components/jquery/dist/jquery.min.js"></script>
+                <!-- Bootstrap tether Core JavaScript -->
+                <script src="bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+                <script src="js/app-style-switcher.js"></script>
+                <!--Wave Effects -->
+                <script src="js/waves.js"></script>
+                <!--Menu sidebar -->
+                <script src="js/sidebarmenu.js"></script>
+                <!--Custom JavaScript -->
+                <script src="js/custom.js"></script>
+</body>
+<script>
+</script>
+
+</html>
